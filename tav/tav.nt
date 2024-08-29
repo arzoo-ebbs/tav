@@ -1,0 +1,1232 @@
+<https://w3id.org/tav> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/tav> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/tav/1.0> .
+<https://w3id.org/tav> <http://purl.org/dc/terms/contributor> "Stephen H. Blackwell"@en .
+<https://w3id.org/tav> <http://purl.org/dc/terms/creator> "Shakeeb Arzoo"@en .
+<https://w3id.org/tav> <http://purl.org/dc/terms/creator> "http://aidanhogan.com/foaf.rdf#me" .
+<https://w3id.org/tav> <http://purl.org/dc/terms/date> "2024-08-12" .
+<https://w3id.org/tav> <http://purl.org/dc/terms/description> "Tree Annotation Vocabulary (TAV) is an RDF vocabulary to describe the mentions of tree-like entities in literary works and link them to external databases to enrich their contextual background."@en .
+<https://w3id.org/tav> <http://purl.org/dc/terms/title> "TAV: Tree Annotation Vocabulary"@en .
+<https://w3id.org/tav> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "https://doi.org/10.5281/zenodo.13382194"@en .
+<https://w3id.org/tav> <https://w3id.org/tav#competencyQuestion> "1. Where does (X) tree appear in a work by Nabokov? 2. What botanical species are appropriate for the (X) tree appearing in Nabokov? 3. Where does (X) tree appear in Nabokov’s entire oeuvre? 4. What places are associated with (X) tree in a work by Nabokov? 5. What Nabokovian characters are associated with (X) tree? 6. What literary themes are associated with (X) tree in a work by Nabokov? 7. What other trees are associated with (X) tree? 8. What wooden objects (Y) are thematically significant in a work by Nabokov? 9. What wooden objects (Y) are products of (X) tree? 10. What other notable authors or creative works mention these (X) tree?"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/date
+<http://purl.org/dc/terms/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#altLabel
+<http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#label> .
+# 
+# http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#note> .
+# 
+# http://www.w3.org/2004/02/skos/core#example
+<http://www.w3.org/2004/02/skos/core#example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2004/02/skos/core#example> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#note> .
+# 
+# http://www.w3.org/2004/02/skos/core#note
+<http://www.w3.org/2004/02/skos/core#note> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2000/01/rdf-schema#label> .
+# 
+# http://www.w3.org/2004/02/skos/core#scopeNote
+<http://www.w3.org/2004/02/skos/core#scopeNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/2004/02/skos/core#scopeNote> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#note> .
+# 
+# https://w3id.org/tav#competencyQuestion
+<https://w3id.org/tav#competencyQuestion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#gYear
+<http://www.w3.org/2001/XMLSchema#gYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2004/02/skos/core#broadMatch
+<http://www.w3.org/2004/02/skos/core#broadMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2004/02/skos/core#broadMatch> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#broader> .
+<http://www.w3.org/2004/02/skos/core#broadMatch> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#mappingRelation> .
+<http://www.w3.org/2004/02/skos/core#broadMatch> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/2004/02/skos/core#narrowMatch> .
+<http://www.w3.org/2004/02/skos/core#broadMatch> <http://www.w3.org/2000/01/rdf-schema#label> "has broader match"@en .
+# 
+# http://www.w3.org/2004/02/skos/core#broader
+<http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#semanticRelation> .
+<http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.w3.org/2004/02/skos/core#narrower> .
+<http://www.w3.org/2004/02/skos/core#broader> <http://www.w3.org/2000/01/rdf-schema#label> "has broader"@en .
+# 
+# http://www.w3.org/2004/02/skos/core#closeMatch
+<http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#mappingRelation> .
+<http://www.w3.org/2004/02/skos/core#closeMatch> <http://www.w3.org/2000/01/rdf-schema#label> "has close match"@en .
+# 
+# http://www.w3.org/2004/02/skos/core#exactMatch
+<http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#closeMatch> .
+<http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://www.w3.org/2004/02/skos/core#exactMatch> <http://www.w3.org/2000/01/rdf-schema#label> "has exact match"@en .
+# 
+# http://www.w3.org/2004/02/skos/core#mappingRelation
+<http://www.w3.org/2004/02/skos/core#mappingRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2004/02/skos/core#mappingRelation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#semanticRelation> .
+<http://www.w3.org/2004/02/skos/core#mappingRelation> <http://www.w3.org/2000/01/rdf-schema#label> "is in mapping relation with"@en .
+# 
+# http://www.w3.org/2004/02/skos/core#narrowMatch
+<http://www.w3.org/2004/02/skos/core#narrowMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2004/02/skos/core#narrowMatch> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#mappingRelation> .
+<http://www.w3.org/2004/02/skos/core#narrowMatch> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#narrower> .
+<http://www.w3.org/2004/02/skos/core#narrowMatch> <http://www.w3.org/2000/01/rdf-schema#label> "has narrow match"@en .
+# 
+# http://www.w3.org/2004/02/skos/core#narrower
+<http://www.w3.org/2004/02/skos/core#narrower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2004/02/skos/core#narrower> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#semanticRelation> .
+<http://www.w3.org/2004/02/skos/core#narrower> <http://www.w3.org/2000/01/rdf-schema#label> "has narrower"@en .
+# 
+# http://www.w3.org/2004/02/skos/core#related
+<http://www.w3.org/2004/02/skos/core#related> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2004/02/skos/core#related> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#semanticRelation> .
+<http://www.w3.org/2004/02/skos/core#related> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://www.w3.org/2004/02/skos/core#related> <http://www.w3.org/2000/01/rdf-schema#label> "has related match"@en .
+# 
+# http://www.w3.org/2004/02/skos/core#relatedMatch
+<http://www.w3.org/2004/02/skos/core#relatedMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2004/02/skos/core#relatedMatch> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#mappingRelation> .
+<http://www.w3.org/2004/02/skos/core#relatedMatch> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#related> .
+<http://www.w3.org/2004/02/skos/core#relatedMatch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#SymmetricProperty> .
+<http://www.w3.org/2004/02/skos/core#relatedMatch> <http://www.w3.org/2000/01/rdf-schema#label> "has related match"@en .
+# 
+# http://www.w3.org/2004/02/skos/core#semanticRelation
+<http://www.w3.org/2004/02/skos/core#semanticRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2004/02/skos/core#semanticRelation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#semanticRelation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2004/02/skos/core#Concept> .
+<http://www.w3.org/2004/02/skos/core#semanticRelation> <http://www.w3.org/2000/01/rdf-schema#label> "is in semantic relation with"@en .
+# 
+# https://w3id.org/tav#authorOf
+<https://w3id.org/tav#authorOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#authorOf> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/tav#hasAuthor> .
+<https://w3id.org/tav#authorOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#Agent> .
+<https://w3id.org/tav#authorOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#authorOf> <http://www.w3.org/2000/01/rdf-schema#label> "author of"@en .
+# 
+# https://w3id.org/tav#body
+<https://w3id.org/tav#body> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#body> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#LiteraryAnnotation> .
+<https://w3id.org/tav#body> <http://www.w3.org/2000/01/rdf-schema#label> "has body"@en .
+# 
+# https://w3id.org/tav#characterIn
+<https://w3id.org/tav#characterIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#characterIn> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/tav#hasCharacter> .
+<https://w3id.org/tav#characterIn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#Person> .
+<https://w3id.org/tav#characterIn> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#characterIn> <http://www.w3.org/2000/01/rdf-schema#label> "character in"@en .
+# 
+# https://w3id.org/tav#containedInRegion
+<https://w3id.org/tav#containedInRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#containedInRegion> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/tav#containsRegion> .
+<https://w3id.org/tav#containedInRegion> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#Region> .
+<https://w3id.org/tav#containedInRegion> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/tav#Region> .
+<https://w3id.org/tav#containedInRegion> <http://www.w3.org/2000/01/rdf-schema#label> "contained in region"@en .
+# 
+# https://w3id.org/tav#containsReferenceTo
+<https://w3id.org/tav#containsReferenceTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#containsReferenceTo> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/tav#referencedIn> .
+<https://w3id.org/tav#containsReferenceTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#containsReferenceTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/tav#containsReferenceTo> <http://www.w3.org/2000/01/rdf-schema#label> "contains reference to"@en .
+# 
+# https://w3id.org/tav#containsRegion
+<https://w3id.org/tav#containsRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#containsRegion> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#Region> .
+<https://w3id.org/tav#containsRegion> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/tav#Region> .
+<https://w3id.org/tav#containsRegion> <http://www.w3.org/2000/01/rdf-schema#label> "contains region"@en .
+# 
+# https://w3id.org/tav#contentLanguage
+<https://w3id.org/tav#contentLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#contentLanguage> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#contentLanguage> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/tav#Language> .
+<https://w3id.org/tav#contentLanguage> <http://www.w3.org/2000/01/rdf-schema#label> "has content language"@en .
+# 
+# https://w3id.org/tav#exoticToLocation
+<https://w3id.org/tav#exoticToLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#exoticToLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#Plant> .
+<https://w3id.org/tav#exoticToLocation> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/tav#Region> .
+<https://w3id.org/tav#exoticToLocation> <http://www.w3.org/2000/01/rdf-schema#label> "exotic to location"@en .
+# 
+# https://w3id.org/tav#hasAuthor
+<https://w3id.org/tav#hasAuthor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#hasAuthor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#hasAuthor> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/tav#Agent> .
+<https://w3id.org/tav#hasAuthor> <http://www.w3.org/2000/01/rdf-schema#label> "has author"@en .
+# 
+# https://w3id.org/tav#hasCharacter
+<https://w3id.org/tav#hasCharacter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#hasCharacter> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#hasCharacter> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/tav#Person> .
+<https://w3id.org/tav#hasCharacter> <http://www.w3.org/2000/01/rdf-schema#label> "has character"@en .
+# 
+# https://w3id.org/tav#hasItem
+<https://w3id.org/tav#hasItem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#hasItem> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Collection> .
+<https://w3id.org/tav#hasItem> <http://www.w3.org/2000/01/rdf-schema#label> "has item"@en .
+# 
+# https://w3id.org/tav#hasPublisher
+<https://w3id.org/tav#hasPublisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#hasPublisher> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/tav#publisherOf> .
+<https://w3id.org/tav#hasPublisher> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#hasPublisher> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/tav#Agent> .
+<https://w3id.org/tav#hasPublisher> <http://www.w3.org/2000/01/rdf-schema#label> "has publisher"@en .
+# 
+# https://w3id.org/tav#hasStoryLocation
+<https://w3id.org/tav#hasStoryLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#hasStoryLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#hasStoryLocation> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/tav#Region> .
+<https://w3id.org/tav#hasStoryLocation> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a narrative work to a location where the story takes place. This location may be fictional or real, and may be the primary or secondary setting for the story."@en .
+<https://w3id.org/tav#hasStoryLocation> <http://www.w3.org/2000/01/rdf-schema#label> "has story location"@en .
+# 
+# https://w3id.org/tav#hasTranslator
+<https://w3id.org/tav#hasTranslator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#hasTranslator> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/tav#translatorOf> .
+<https://w3id.org/tav#hasTranslator> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#hasTranslator> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/tav#Agent> .
+<https://w3id.org/tav#hasTranslator> <http://www.w3.org/2000/01/rdf-schema#label> "has translator"@en .
+# 
+# https://w3id.org/tav#hasWorkTranslation
+<https://w3id.org/tav#hasWorkTranslation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#hasWorkTranslation> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/tav#translationOfWork> .
+<https://w3id.org/tav#hasWorkTranslation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#hasWorkTranslation> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#hasWorkTranslation> <http://www.w3.org/2000/01/rdf-schema#label> "has work translation"@en .
+# 
+# https://w3id.org/tav#hasWorkVersion
+<https://w3id.org/tav#hasWorkVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#hasWorkVersion> <http://www.w3.org/2002/07/owl#inverseOf> <https://w3id.org/tav#versionOfWork> .
+<https://w3id.org/tav#hasWorkVersion> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#hasWorkVersion> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#hasWorkVersion> <http://www.w3.org/2000/01/rdf-schema#label> "has work version"@en .
+# 
+# https://w3id.org/tav#naturalizedToLocation
+<https://w3id.org/tav#naturalizedToLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#naturalizedToLocation> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#Plant> .
+<https://w3id.org/tav#naturalizedToLocation> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/tav#Region> .
+<https://w3id.org/tav#naturalizedToLocation> <http://www.w3.org/2000/01/rdf-schema#label> "naturalized to location"@en .
+# 
+# https://w3id.org/tav#occursIn
+<https://w3id.org/tav#occursIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#occursIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<https://w3id.org/tav#occursIn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#Selector> .
+<https://w3id.org/tav#occursIn> <http://www.w3.org/2000/01/rdf-schema#label> "occurs in"@en .
+# 
+# https://w3id.org/tav#placeOfPublication
+<https://w3id.org/tav#placeOfPublication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#placeOfPublication> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#placeOfPublication> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/tav#Region> .
+<https://w3id.org/tav#placeOfPublication> <http://www.w3.org/2000/01/rdf-schema#label> "has place of publication"@en .
+# 
+# https://w3id.org/tav#publisherOf
+<https://w3id.org/tav#publisherOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#publisherOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#Agent> .
+<https://w3id.org/tav#publisherOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#publisherOf> <http://www.w3.org/2000/01/rdf-schema#label> "publisher of"@en .
+# 
+# https://w3id.org/tav#referencedIn
+<https://w3id.org/tav#referencedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#referencedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/tav#referencedIn> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#referencedIn> <http://www.w3.org/2000/01/rdf-schema#label> "referenced In"@en .
+# 
+# https://w3id.org/tav#selector
+<https://w3id.org/tav#selector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#selector> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#Mention> .
+<https://w3id.org/tav#selector> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/tav#Selector> .
+<https://w3id.org/tav#selector> <http://www.w3.org/2000/01/rdf-schema#label> "has selector"@en .
+# 
+# https://w3id.org/tav#source
+<https://w3id.org/tav#source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#source> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#Mention> .
+<https://w3id.org/tav#source> <http://www.w3.org/2000/01/rdf-schema#label> "has source"@en .
+# 
+# https://w3id.org/tav#target
+<https://w3id.org/tav#target> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#target> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#LiteraryAnnotation> .
+<https://w3id.org/tav#target> <http://www.w3.org/2000/01/rdf-schema#label> "has target"@en .
+# 
+# https://w3id.org/tav#translationOfWork
+<https://w3id.org/tav#translationOfWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#translationOfWork> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#translationOfWork> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#translationOfWork> <http://www.w3.org/2000/01/rdf-schema#label> "translation of work"@en .
+# 
+# https://w3id.org/tav#translatorOf
+<https://w3id.org/tav#translatorOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#translatorOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#Agent> .
+<https://w3id.org/tav#translatorOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#translatorOf> <http://www.w3.org/2000/01/rdf-schema#label> "translator of"@en .
+# 
+# https://w3id.org/tav#treeProductOf
+<https://w3id.org/tav#treeProductOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#treeProductOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#WoodenObject> .
+<https://w3id.org/tav#treeProductOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/tav#Plant> .
+<https://w3id.org/tav#treeProductOf> <http://www.w3.org/2000/01/rdf-schema#label> "is tree product of"@en .
+# 
+# https://w3id.org/tav#versionOfWork
+<https://w3id.org/tav#versionOfWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/tav#versionOfWork> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#versionOfWork> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#versionOfWork> <http://www.w3.org/2000/01/rdf-schema#label> "version of work"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/tav#abbvTitle
+<https://w3id.org/tav#abbvTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/tav#abbvTitle> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#abbvTitle> <http://www.w3.org/2000/01/rdf-schema#label> "abbreviated title"@en .
+# 
+# https://w3id.org/tav#alternateName
+<https://w3id.org/tav#alternateName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/tav#alternateName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/tav#alternateName> <http://www.w3.org/2000/01/rdf-schema#label> "alternate name"@en .
+# 
+# https://w3id.org/tav#bodyValue
+<https://w3id.org/tav#bodyValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/tav#bodyValue> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#LiteraryAnnotation> .
+<https://w3id.org/tav#bodyValue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/tav#bodyValue> <http://www.w3.org/2000/01/rdf-schema#label> "body value"@en .
+# 
+# https://w3id.org/tav#bookPart
+<https://w3id.org/tav#bookPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/tav#bookPart> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#Selector> .
+<https://w3id.org/tav#bookPart> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/tav#bookPart> <http://www.w3.org/2000/01/rdf-schema#label> "book part"@en .
+# 
+# https://w3id.org/tav#chapterLabel
+<https://w3id.org/tav#chapterLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/tav#chapterLabel> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/tav#bookPart> .
+<https://w3id.org/tav#chapterLabel> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#DocumentSegmentSelector> .
+<https://w3id.org/tav#chapterLabel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/tav#chapterLabel> <http://www.w3.org/2000/01/rdf-schema#label> "chapter label"@en .
+# 
+# https://w3id.org/tav#compositionYear
+<https://w3id.org/tav#compositionYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/tav#compositionYear> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#compositionYear> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#gYear> .
+<https://w3id.org/tav#compositionYear> <http://www.w3.org/2000/01/rdf-schema#label> "year of composition"@en .
+# 
+# https://w3id.org/tav#editionName
+<https://w3id.org/tav#editionName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/tav#editionName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#Book> .
+<https://w3id.org/tav#editionName> <http://www.w3.org/2000/01/rdf-schema#comment> "The name of a particular edition of book"@en .
+<https://w3id.org/tav#editionName> <http://www.w3.org/2000/01/rdf-schema#label> "edition name"@en .
+# 
+# https://w3id.org/tav#exactText
+<https://w3id.org/tav#exactText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/tav#exactText> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#TextSelector> .
+<https://w3id.org/tav#exactText> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/tav#exactText> <http://www.w3.org/2000/01/rdf-schema#label> "exact text"@en .
+# 
+# https://w3id.org/tav#firstName
+<https://w3id.org/tav#firstName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/tav#firstName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/tav#name> .
+<https://w3id.org/tav#firstName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#Person> .
+<https://w3id.org/tav#firstName> <http://www.w3.org/2000/01/rdf-schema#label> "first name"@en .
+# 
+# https://w3id.org/tav#givenName
+<https://w3id.org/tav#givenName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/tav#givenName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/tav#name> .
+<https://w3id.org/tav#givenName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#Person> .
+<https://w3id.org/tav#givenName> <http://www.w3.org/2000/01/rdf-schema#label> "given name"@en .
+# 
+# https://w3id.org/tav#name
+<https://w3id.org/tav#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/tav#name> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://w3id.org/tav#name> <http://www.w3.org/2000/01/rdf-schema#label> "name"@en .
+# 
+# https://w3id.org/tav#numberOfPages
+<https://w3id.org/tav#numberOfPages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/tav#numberOfPages> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#Document> .
+<https://w3id.org/tav#numberOfPages> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/tav#numberOfPages> <http://www.w3.org/2000/01/rdf-schema#label> "number of pages"@en .
+# 
+# https://w3id.org/tav#numberedSection
+<https://w3id.org/tav#numberedSection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/tav#numberedSection> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#DocumentSegmentSelector> .
+<https://w3id.org/tav#numberedSection> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://w3id.org/tav#numberedSection> <http://www.w3.org/2000/01/rdf-schema#label> "numbered section"@en .
+# 
+# https://w3id.org/tav#pageNo
+<https://w3id.org/tav#pageNo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/tav#pageNo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#DocumentSegmentSelector> .
+<https://w3id.org/tav#pageNo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/tav#pageNo> <http://www.w3.org/2000/01/rdf-schema#label> "page number"@en .
+# 
+# https://w3id.org/tav#prefixText
+<https://w3id.org/tav#prefixText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/tav#prefixText> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#TextSelector> .
+<https://w3id.org/tav#prefixText> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/tav#prefixText> <http://www.w3.org/2000/01/rdf-schema#label> "prefix text"@en .
+# 
+# https://w3id.org/tav#publicationYear
+<https://w3id.org/tav#publicationYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/tav#publicationYear> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#publicationYear> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#gYear> .
+<https://w3id.org/tav#publicationYear> <http://www.w3.org/2000/01/rdf-schema#label> "publication year"@en .
+# 
+# https://w3id.org/tav#suffixText
+<https://w3id.org/tav#suffixText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/tav#suffixText> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#TextSelector> .
+<https://w3id.org/tav#suffixText> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/tav#suffixText> <http://www.w3.org/2000/01/rdf-schema#label> "suffix text"@en .
+# 
+# https://w3id.org/tav#totalItems
+<https://w3id.org/tav#totalItems> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/tav#totalItems> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2004/02/skos/core#Collection> .
+<https://w3id.org/tav#totalItems> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<https://w3id.org/tav#totalItems> <http://www.w3.org/2000/01/rdf-schema#label> "has total number of items"@en .
+# 
+# https://w3id.org/tav#wordCount
+<https://w3id.org/tav#wordCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/tav#wordCount> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/tav#Document> .
+<https://w3id.org/tav#wordCount> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/tav#wordCount> <http://www.w3.org/2000/01/rdf-schema#label> "has word count" .
+<https://w3id.org/tav#wordCount> <http://www.w3.org/2004/02/skos/core#note> "Only the main text."@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2004/02/skos/core#Collection
+<http://www.w3.org/2004/02/skos/core#Collection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2004/02/skos/core#Collection> <http://www.w3.org/2000/01/rdf-schema#comment> "A meaningful collection of concepts."@en .
+<http://www.w3.org/2004/02/skos/core#Collection> <http://www.w3.org/2000/01/rdf-schema#label> "Collection"@en .
+# 
+# http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#comment> "A concept is a unit of thought—ideas, meanings, or categories of objects and events."@en .
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#label> "Concept"@en .
+# 
+# http://www.w3.org/2004/02/skos/core#OrderedCollection
+<http://www.w3.org/2004/02/skos/core#OrderedCollection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2004/02/skos/core#OrderedCollection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Collection> .
+<http://www.w3.org/2004/02/skos/core#OrderedCollection> <http://www.w3.org/2000/01/rdf-schema#comment> "An ordered collection of concepts, where both the grouping and the ordering are meaningful."@en .
+<http://www.w3.org/2004/02/skos/core#OrderedCollection> <http://www.w3.org/2000/01/rdf-schema#label> "Ordered Collection"@en .
+# 
+# https://w3id.org/tav#AdministrativeRegion
+<https://w3id.org/tav#AdministrativeRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#AdministrativeRegion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#Region> .
+<https://w3id.org/tav#AdministrativeRegion> <http://www.w3.org/2000/01/rdf-schema#comment> "A geographical region defined by their administrative boundaries."@en .
+<https://w3id.org/tav#AdministrativeRegion> <http://www.w3.org/2000/01/rdf-schema#label> "Administrative Region"@en .
+# 
+# https://w3id.org/tav#Agent
+<https://w3id.org/tav#Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#Agent> <http://www.w3.org/2000/01/rdf-schema#comment> "A person, organization, or any other artifact that can act or perform some role."@en .
+<https://w3id.org/tav#Agent> <http://www.w3.org/2000/01/rdf-schema#label> "Agent"@en .
+# 
+# https://w3id.org/tav#Anthology
+<https://w3id.org/tav#Anthology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#Anthology> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#CollectedDocument> .
+<https://w3id.org/tav#Anthology> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of selected literary documents having structural or thematic similarities."@en .
+<https://w3id.org/tav#Anthology> <http://www.w3.org/2000/01/rdf-schema#label> "Anthology"@en .
+<https://w3id.org/tav#Anthology> <http://www.w3.org/2004/02/skos/core#example> "Short Story Collection, American Poetry Collection"@en .
+# 
+# https://w3id.org/tav#Article
+<https://w3id.org/tav#Article> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#Article> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#Document> .
+<https://w3id.org/tav#Article> <http://www.w3.org/2000/01/rdf-schema#comment> "A written composition in prose, usually nonfiction, on a specific topic, forming an independent part of a book or other publication, as a newspaper or magazine."@en .
+<https://w3id.org/tav#Article> <http://www.w3.org/2000/01/rdf-schema#label> "Article"@en .
+# 
+# https://w3id.org/tav#Book
+<https://w3id.org/tav#Book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#Book> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#Document> .
+<https://w3id.org/tav#Book> <http://www.w3.org/2000/01/rdf-schema#comment> "An electronic or printed work of fiction or nonfiction."@en .
+<https://w3id.org/tav#Book> <http://www.w3.org/2000/01/rdf-schema#label> "Book"@en .
+# 
+# https://w3id.org/tav#City
+<https://w3id.org/tav#City> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#AdministrativeRegion> .
+<https://w3id.org/tav#City> <http://www.w3.org/2000/01/rdf-schema#comment> "A local administrative region falling under a municipality."@en .
+<https://w3id.org/tav#City> <http://www.w3.org/2000/01/rdf-schema#label> "City"@en .
+# 
+# https://w3id.org/tav#CoastalArea
+<https://w3id.org/tav#CoastalArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#CoastalArea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#NaturalRegion> .
+<https://w3id.org/tav#CoastalArea> <http://www.w3.org/2000/01/rdf-schema#comment> "An area adjacent to a water body, such as an ocean or a sea characterized by unique natural features and ecosystems."@en .
+<https://w3id.org/tav#CoastalArea> <http://www.w3.org/2000/01/rdf-schema#label> "CoastalArea"@en .
+# 
+# https://w3id.org/tav#CollectedDocument
+<https://w3id.org/tav#CollectedDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#CollectedDocument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#Document> .
+<https://w3id.org/tav#CollectedDocument> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of Documents or Collections."@en .
+<https://w3id.org/tav#CollectedDocument> <http://www.w3.org/2000/01/rdf-schema#label> "Collected Document"@en .
+# 
+# https://w3id.org/tav#Continent
+<https://w3id.org/tav#Continent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#Continent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#NaturalRegion> .
+<https://w3id.org/tav#Continent> <http://www.w3.org/2000/01/rdf-schema#comment> "A continent is type of natural landform comprising a single landmass or as a part of large landmass."@en .
+<https://w3id.org/tav#Continent> <http://www.w3.org/2000/01/rdf-schema#label> "Continent"@en .
+# 
+# https://w3id.org/tav#Country
+<https://w3id.org/tav#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#AdministrativeRegion> .
+<https://w3id.org/tav#Country> <http://www.w3.org/2000/01/rdf-schema#comment> "A sovereign nation with defined borders and governance."@en .
+<https://w3id.org/tav#Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country"@en .
+# 
+# https://w3id.org/tav#CreativeWork
+<https://w3id.org/tav#CreativeWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#CreativeWork> <http://www.w3.org/2000/01/rdf-schema#comment> "The most generic kind of creative work."@en .
+<https://w3id.org/tav#CreativeWork> <http://www.w3.org/2000/01/rdf-schema#label> "Creative Work"@en .
+# 
+# https://w3id.org/tav#Document
+<https://w3id.org/tav#Document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#Document> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#Document> <http://www.w3.org/2000/01/rdf-schema#comment> "A written document of mainly textual character."@en .
+<https://w3id.org/tav#Document> <http://www.w3.org/2000/01/rdf-schema#label> "Document"@en .
+# 
+# https://w3id.org/tav#DocumentSegmentSelector
+<https://w3id.org/tav#DocumentSegmentSelector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#DocumentSegmentSelector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#Selector> .
+<https://w3id.org/tav#DocumentSegmentSelector> <http://www.w3.org/2000/01/rdf-schema#comment> "It describes a named segment of a document having a clear structural boundary."@en .
+<https://w3id.org/tav#DocumentSegmentSelector> <http://www.w3.org/2000/01/rdf-schema#label> "Document Segment Selector"@en .
+# 
+# https://w3id.org/tav#DramaticPlay
+<https://w3id.org/tav#DramaticPlay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#DramaticPlay> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#Document> .
+<https://w3id.org/tav#DramaticPlay> <http://www.w3.org/2000/01/rdf-schema#comment> "A written fictional work intended for performance on stage or screen, consisting of scripted dialogue between characters."@en .
+<https://w3id.org/tav#DramaticPlay> <http://www.w3.org/2000/01/rdf-schema#label> "Dramatic Play"@en .
+# 
+# https://w3id.org/tav#GeographicalRegion
+<https://w3id.org/tav#GeographicalRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#GeographicalRegion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#Region> .
+<https://w3id.org/tav#GeographicalRegion> <http://www.w3.org/2000/01/rdf-schema#comment> "A specific area on the Earth's surface with common physical features and natural or artifical boundaries."@en .
+<https://w3id.org/tav#GeographicalRegion> <http://www.w3.org/2000/01/rdf-schema#label> "Geographical Region"@en .
+# 
+# https://w3id.org/tav#HistoricalOrCulturalRegion
+<https://w3id.org/tav#HistoricalOrCulturalRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#HistoricalOrCulturalRegion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#GeographicalRegion> .
+<https://w3id.org/tav#HistoricalOrCulturalRegion> <http://www.w3.org/2000/01/rdf-schema#comment> "An area defined on their shared cultural or historical characteristics, such as language or tradition."@en .
+<https://w3id.org/tav#HistoricalOrCulturalRegion> <http://www.w3.org/2000/01/rdf-schema#label> "Historical or Cultural Region"@en .
+# 
+# https://w3id.org/tav#Lake
+<https://w3id.org/tav#Lake> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#Lake> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#WaterBody> .
+<https://w3id.org/tav#Lake> <http://www.w3.org/2000/01/rdf-schema#comment> "A body of freshwater, usually surrounded by land."@en .
+<https://w3id.org/tav#Lake> <http://www.w3.org/2000/01/rdf-schema#label> "Lake"@en .
+# 
+# https://w3id.org/tav#Language
+<https://w3id.org/tav#Language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#Language> <http://www.w3.org/2000/01/rdf-schema#comment> "Natural languages that serve a communicative function, either in a written or oral form."@en .
+<https://w3id.org/tav#Language> <http://www.w3.org/2000/01/rdf-schema#label> "Language"@en .
+<https://w3id.org/tav#Language> <http://www.w3.org/2004/02/skos/core#example> "English, French, Hindi, Russian, Spanish"@en .
+# 
+# https://w3id.org/tav#LiteraryAnnotation
+<https://w3id.org/tav#LiteraryAnnotation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#LiteraryAnnotation> <http://www.w3.org/2000/01/rdf-schema#comment> "A literary annotation is a set of connected resources with a body and a target, suggesting that the body is somehow associated with the target."@en .
+<https://w3id.org/tav#LiteraryAnnotation> <http://www.w3.org/2000/01/rdf-schema#label> "Literary Annotation"@en .
+# 
+# https://w3id.org/tav#LiteraryTheme
+<https://w3id.org/tav#LiteraryTheme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#LiteraryTheme> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/tav#LiteraryTheme> <http://www.w3.org/2000/01/rdf-schema#comment> "A recurring idea, concept, or message explored in a literary work directly or indirectly."@en .
+<https://w3id.org/tav#LiteraryTheme> <http://www.w3.org/2000/01/rdf-schema#label> "Literary Theme"@en .
+# 
+# https://w3id.org/tav#Mention
+<https://w3id.org/tav#Mention> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#Mention> <http://www.w3.org/2000/01/rdf-schema#comment> "A mention is a specific occurrence or reference to an entity within a specified resource that is of interest to the annotator."@en .
+<https://w3id.org/tav#Mention> <http://www.w3.org/2000/01/rdf-schema#label> "Mention"@en .
+# 
+# https://w3id.org/tav#MountainRange
+<https://w3id.org/tav#MountainRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#MountainRange> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#NaturalRegion> .
+<https://w3id.org/tav#MountainRange> <http://www.w3.org/2000/01/rdf-schema#comment> "A continuous elevated landform having a shared, recognizable geographical origin."@en .
+<https://w3id.org/tav#MountainRange> <http://www.w3.org/2000/01/rdf-schema#label> "Mountain Range"@en .
+# 
+# https://w3id.org/tav#NaturalRegion
+<https://w3id.org/tav#NaturalRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#NaturalRegion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#GeographicalRegion> .
+<https://w3id.org/tav#NaturalRegion> <http://www.w3.org/2000/01/rdf-schema#comment> "An area defined on the basis of certain naturally occuring geographical features."@en .
+<https://w3id.org/tav#NaturalRegion> <http://www.w3.org/2000/01/rdf-schema#label> "Natural Region"@en .
+# 
+# https://w3id.org/tav#Ocean
+<https://w3id.org/tav#Ocean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#Ocean> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#WaterBody> .
+<https://w3id.org/tav#Ocean> <http://www.w3.org/2000/01/rdf-schema#comment> "A vast, continuous body of saltwater covering the Earth's surface."@en .
+<https://w3id.org/tav#Ocean> <http://www.w3.org/2000/01/rdf-schema#label> "Ocean"@en .
+# 
+# https://w3id.org/tav#Organization
+<https://w3id.org/tav#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#Organization> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#Agent> .
+<https://w3id.org/tav#Organization> <http://www.w3.org/2000/01/rdf-schema#comment> "An organization, such as a company, institution, or group."@en .
+<https://w3id.org/tav#Organization> <http://www.w3.org/2000/01/rdf-schema#label> "Organization"@en .
+# 
+# https://w3id.org/tav#Painting
+<https://w3id.org/tav#Painting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#Painting> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#CreativeWork> .
+<https://w3id.org/tav#Painting> <http://www.w3.org/2000/01/rdf-schema#comment> "A visual artwork created through the application of paint or similar medium."@en .
+<https://w3id.org/tav#Painting> <http://www.w3.org/2000/01/rdf-schema#label> "Painting"@en .
+# 
+# https://w3id.org/tav#Periodical
+<https://w3id.org/tav#Periodical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#Periodical> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#CollectedDocument> .
+<https://w3id.org/tav#Periodical> <http://www.w3.org/2000/01/rdf-schema#comment> "A group of related documents issued at regular intervals."@en .
+<https://w3id.org/tav#Periodical> <http://www.w3.org/2000/01/rdf-schema#label> "Periodical"@en .
+# 
+# https://w3id.org/tav#Person
+<https://w3id.org/tav#Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#Person> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#Agent> .
+<https://w3id.org/tav#Person> <http://www.w3.org/2000/01/rdf-schema#comment> "A person (alive, dead, undead, or fictional)."@en .
+<https://w3id.org/tav#Person> <http://www.w3.org/2000/01/rdf-schema#label> "Person"@en .
+# 
+# https://w3id.org/tav#Plant
+<https://w3id.org/tav#Plant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#Plant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/tav#Plant> <http://www.w3.org/2000/01/rdf-schema#comment> "A living organism that grows on the ground, typically having roots, stems, and leaves, and often producing flowers and seeds."@en .
+<https://w3id.org/tav#Plant> <http://www.w3.org/2000/01/rdf-schema#label> "Plant"@en .
+# 
+# https://w3id.org/tav#Poem
+<https://w3id.org/tav#Poem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#Poem> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#Document> .
+<https://w3id.org/tav#Poem> <http://www.w3.org/2000/01/rdf-schema#comment> "A creative writing piece that uses language in a imaginative and symbolic way to express thoughts, feelings, and ideas, often with a rhythmic or lyrical quality."@en .
+<https://w3id.org/tav#Poem> <http://www.w3.org/2000/01/rdf-schema#label> "Poem"@en .
+# 
+# https://w3id.org/tav#Region
+<https://w3id.org/tav#Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#Region> <http://www.w3.org/2000/01/rdf-schema#comment> "An area or space defined on the basis of their geographical or administratrative features."@en .
+<https://w3id.org/tav#Region> <http://www.w3.org/2000/01/rdf-schema#label> "Region"@en .
+<https://w3id.org/tav#Region> <http://www.w3.org/2004/02/skos/core#altLabel> "Place"@en .
+# 
+# https://w3id.org/tav#Sea
+<https://w3id.org/tav#Sea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#Sea> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#WaterBody> .
+<https://w3id.org/tav#Sea> <http://www.w3.org/2000/01/rdf-schema#comment> "A smaller body of saltwater, usually connected to an ocean."@en .
+<https://w3id.org/tav#Sea> <http://www.w3.org/2000/01/rdf-schema#label> "Sea"@en .
+# 
+# https://w3id.org/tav#Selector
+<https://w3id.org/tav#Selector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#Selector> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource which describes the segment of interest in a specific representation of a resource."@en .
+<https://w3id.org/tav#Selector> <http://www.w3.org/2000/01/rdf-schema#label> "Selector"@en .
+# 
+# https://w3id.org/tav#ShortStory
+<https://w3id.org/tav#ShortStory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#ShortStory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#Document> .
+<https://w3id.org/tav#ShortStory> <http://www.w3.org/2000/01/rdf-schema#comment> "A brief work of fiction, characterized by its short length, written in narrative prose."@en .
+<https://w3id.org/tav#ShortStory> <http://www.w3.org/2000/01/rdf-schema#label> "Short Story"@en .
+# 
+# https://w3id.org/tav#State
+<https://w3id.org/tav#State> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#State> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#AdministrativeRegion> .
+<https://w3id.org/tav#State> <http://www.w3.org/2000/01/rdf-schema#comment> "A primary administrative division of a country."@en .
+<https://w3id.org/tav#State> <http://www.w3.org/2000/01/rdf-schema#label> "State"@en .
+# 
+# https://w3id.org/tav#SubnationalRegion
+<https://w3id.org/tav#SubnationalRegion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#SubnationalRegion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#AdministrativeRegion> .
+<https://w3id.org/tav#SubnationalRegion> <http://www.w3.org/2000/01/rdf-schema#comment> "A region within a country grouped on the basis of shared cultural or geographical characteristics, not necessarily administrative."@en .
+<https://w3id.org/tav#SubnationalRegion> <http://www.w3.org/2000/01/rdf-schema#label> "Subnational Region"@en .
+# 
+# https://w3id.org/tav#Taxon
+<https://w3id.org/tav#Taxon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#Taxon> <http://www.w3.org/2002/07/owl#equivalentClass> <https://www.wikidata.org/entity/Q16521> .
+<https://w3id.org/tav#Taxon> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/tav#Taxon> <http://www.w3.org/2000/01/rdf-schema#comment> "A group of organisms that form a natural, cohesive biological unit."@en .
+<https://w3id.org/tav#Taxon> <http://www.w3.org/2000/01/rdf-schema#label> "Taxon"@en .
+# 
+# https://w3id.org/tav#TextSelector
+<https://w3id.org/tav#TextSelector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#TextSelector> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#Selector> .
+<https://w3id.org/tav#TextSelector> <http://www.w3.org/2000/01/rdf-schema#comment> "A textual segment describing a certain textual range by quoting it exactly, and by including a textual range before or after (or both) the targeted range to distinguish between multiple copies of the same sequence of characters."@en .
+<https://w3id.org/tav#TextSelector> <http://www.w3.org/2000/01/rdf-schema#label> "Text Selector"@en .
+# 
+# https://w3id.org/tav#Town
+<https://w3id.org/tav#Town> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#Town> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#AdministrativeRegion> .
+<https://w3id.org/tav#Town> <http://www.w3.org/2000/01/rdf-schema#comment> "A town is a type of a human settlement larger than villages and smaller than cities."@en .
+<https://w3id.org/tav#Town> <http://www.w3.org/2000/01/rdf-schema#label> "Town"@en .
+# 
+# https://w3id.org/tav#TreeMetonym
+<https://w3id.org/tav#TreeMetonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#TreeMetonym> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/tav#TreeMetonym> <http://www.w3.org/2000/01/rdf-schema#comment> "Any part, component, structure of a tree or a collection of trees that represents its physical elements, or its aggregated grouping."@en .
+<https://w3id.org/tav#TreeMetonym> <http://www.w3.org/2000/01/rdf-schema#label> "Tree Metonym"@en .
+<https://w3id.org/tav#TreeMetonym> <http://www.w3.org/2004/02/skos/core#example> "Leaf, Branch, Foliage, Forest, Orchard"@en .
+# 
+# https://w3id.org/tav#TreeSpecies
+<https://w3id.org/tav#TreeSpecies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#TreeSpecies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#Plant> .
+<https://w3id.org/tav#TreeSpecies> <http://www.w3.org/2000/01/rdf-schema#comment> "An accepted taxonomic classification of a tree, representing a group of trees that share common characteristics, from morphological to genetic."@en .
+<https://w3id.org/tav#TreeSpecies> <http://www.w3.org/2000/01/rdf-schema#label> "Tree Species"@en .
+<https://w3id.org/tav#TreeSpecies> <http://www.w3.org/2004/02/skos/core#note> "A tree is a big plant with a stick up the middle. [Colin Tudge, The Secret Life of Trees, 2005]"@en .
+# 
+# https://w3id.org/tav#WaterBody
+<https://w3id.org/tav#WaterBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#WaterBody> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/tav#NaturalRegion> .
+<https://w3id.org/tav#WaterBody> <http://www.w3.org/2000/01/rdf-schema#comment> "A body of water, such as a sea, ocean, or lake."@en .
+<https://w3id.org/tav#WaterBody> <http://www.w3.org/2000/01/rdf-schema#label> "Water Body"@en .
+# 
+# https://w3id.org/tav#WoodenObject
+<https://w3id.org/tav#WoodenObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/tav#WoodenObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/tav#WoodenObject> <http://www.w3.org/2000/01/rdf-schema#comment> "A tangible object made primarily of wood, a natural material obtained from trees, which is often shaped, crafted, or manufactured to serve a specific purpose"@en .
+<https://w3id.org/tav#WoodenObject> <http://www.w3.org/2000/01/rdf-schema#label> "Wooden Object"@en .
+# 
+# https://www.wikidata.org/entity/Q16521
+<https://www.wikidata.org/entity/Q16521> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://www.wikidata.org/entity/Q16521> <http://www.w3.org/2000/01/rdf-schema#comment> "A group of one or more organism(s), which a taxonomist adjudges to be a unit."@en .
+<https://www.wikidata.org/entity/Q16521> <http://www.w3.org/2000/01/rdf-schema#label> "Taxon"@en .
+<https://www.wikidata.org/entity/Q16521> <http://www.w3.org/2004/02/skos/core#altLabel> "Taxa"@en .
+<https://www.wikidata.org/entity/Q16521> <http://www.w3.org/2004/02/skos/core#altLabel> "Taxonomic Unit"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://dbpedia.org/resource/Arecaceae
+<http://dbpedia.org/resource/Arecaceae> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/resource/Arecaceae> <http://www.w3.org/2000/01/rdf-schema#comment> "The Arecaceae is a family of perennial flowering plants in the monocot order Arecales. Their growth form can be climbers, shrubs, tree-like and stemless plants, all commonly known as palms. Those having a tree-like form are called palm trees. Currently, 181 genera with around 2,600 species are known, most of which are restricted to tropical and subtropical climates. Most palms are distinguished by their large, compound, evergreen leaves, known as fronds, arranged at the top of an unbranched stem. However, palms exhibit an enormous diversity in physical characteristics and inhabit nearly every type of habitat within their range, from rainforests to deserts."@en .
+<http://dbpedia.org/resource/Arecaceae> <http://www.w3.org/2000/01/rdf-schema#label> "Arecaceae"@en .
+# 
+# http://dbpedia.org/resource/Cupressus
+<http://dbpedia.org/resource/Cupressus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/resource/Cupressus> <http://www.w3.org/2000/01/rdf-schema#comment> "Cupressus is one of several genera of evergreen conifers within the family Cupressaceae that have the common name cypress; for the others, see cypress. It is considered a polyphyletic group. Based on genetic and morphological analysis, the genus Cupressus is found in the subfamily Cupressoideae. The common name \"cypress\" comes via the Old French cipres from the Latin cyparissus, which is the latinisation of the Greek κυπάρισσος (kypárissos)."@en .
+<http://dbpedia.org/resource/Cupressus> <http://www.w3.org/2000/01/rdf-schema#label> "Cupressus"@en .
+# 
+# http://dbpedia.org/resource/Tilia
+<http://dbpedia.org/resource/Tilia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/resource/Tilia> <http://www.w3.org/2000/01/rdf-schema#comment> "Tilia is a genus of about 30 species of trees or bushes, native throughout most of the temperate Northern Hemisphere. The tree is known as linden for the European species, and basswood for North American species. In Britain and Ireland they are commonly called lime trees, although they are not related to the citrus lime. The genus occurs in Europe and eastern North America, but the greatest species diversity is found in Asia. Under the Cronquist classification system, this genus was placed in the family Tiliaceae, but genetic research summarised by the Angiosperm Phylogeny Group has resulted in the incorporation of this genus, and of most of the previous family, into the Malvaceae."@en .
+<http://dbpedia.org/resource/Tilia> <http://www.w3.org/2000/01/rdf-schema#label> "Tilia"@en .
+# 
+# http://dbpedia.org/resource/Vladimir_Nabokov
+<http://dbpedia.org/resource/Vladimir_Nabokov> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://dbpedia.org/resource/Vladimir_Nabokov> <http://www.w3.org/2002/07/owl#sameAs> <https://w3id.org/tav#Nabokov> .
+<http://dbpedia.org/resource/Vladimir_Nabokov> <http://www.w3.org/2000/01/rdf-schema#comment> "Vladimir Vladimirovich Nabokov (Russian: Владимир Владимирович Набоков [vlɐˈdʲimʲɪr vlɐˈdʲimʲɪrəvʲɪtɕ nɐˈbokəf]; 22 April [O.S. 10 April] 1899 – 2 July 1977), also known by the pen name Vladimir Sirin (Владимир Сирин), was a Russian-American novelist, poet, translator, and entomologist. Born in Imperial Russia in 1899, Nabokov wrote his first nine novels in Russian (1926–1938) while living in Berlin, where he met his wife. He achieved international acclaim and prominence after moving to the United States, where he began writing in English. Nabokov became an American citizen in 1945 and lived mostly on the East Coast before returning to Europe in 1961, where he settled in Montreux, Switzerland."@en .
+<http://dbpedia.org/resource/Vladimir_Nabokov> <http://www.w3.org/2000/01/rdf-schema#label> "Vladimir Nabokov"@en .
+# 
+# https://w3id.org/tav#Nabokov
+# 
+# https://w3id.org/tav#Anno_Mary01
+<https://w3id.org/tav#Anno_Mary01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Anno_Mary01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#LiteraryAnnotation> .
+<https://w3id.org/tav#Anno_Mary01> <https://w3id.org/tav#body> <https://w3id.org/tav#Mention_Mary01> .
+<https://w3id.org/tav#Anno_Mary01> <https://w3id.org/tav#body> <https://w3id.org/tav#Mention_Mary02> .
+<https://w3id.org/tav#Anno_Mary01> <https://w3id.org/tav#body> <https://w3id.org/tav#Mention_Mary03> .
+<https://w3id.org/tav#Anno_Mary01> <https://w3id.org/tav#body> <https://w3id.org/tav#Mention_Mary04> .
+<https://w3id.org/tav#Anno_Mary01> <https://w3id.org/tav#body> <https://w3id.org/tav#Mention_Mary05> .
+<https://w3id.org/tav#Anno_Mary01> <https://w3id.org/tav#body> <https://w3id.org/tav#Mention_Mary06> .
+<https://w3id.org/tav#Anno_Mary01> <https://w3id.org/tav#body> <https://w3id.org/tav#Mention_Mary07> .
+<https://w3id.org/tav#Anno_Mary01> <https://w3id.org/tav#target> <https://w3id.org/tav#FirstLove> .
+<https://w3id.org/tav#Anno_Mary01> <https://w3id.org/tav#target> <https://w3id.org/tav#LindenTree> .
+<https://w3id.org/tav#Anno_Mary01> <https://w3id.org/tav#target> <https://w3id.org/tav#StPetersburgOblast> .
+# 
+# https://w3id.org/tav#Anno_Mary02
+<https://w3id.org/tav#Anno_Mary02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Anno_Mary02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#LiteraryAnnotation> .
+<https://w3id.org/tav#Anno_Mary02> <https://w3id.org/tav#body> <https://w3id.org/tav#Mention_Mary08> .
+<https://w3id.org/tav#Anno_Mary02> <https://w3id.org/tav#target> <https://w3id.org/tav#Berlin> .
+<https://w3id.org/tav#Anno_Mary02> <https://w3id.org/tav#target> <https://w3id.org/tav#Frames> .
+<https://w3id.org/tav#Anno_Mary02> <https://w3id.org/tav#target> <https://w3id.org/tav#PalmTree> .
+# 
+# https://w3id.org/tav#Anno_Mary05
+<https://w3id.org/tav#Anno_Mary05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Anno_Mary05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#LiteraryAnnotation> .
+<https://w3id.org/tav#Anno_Mary05> <https://w3id.org/tav#body> <https://w3id.org/tav#Mention_Mary11> .
+<https://w3id.org/tav#Anno_Mary05> <https://w3id.org/tav#body> <https://w3id.org/tav#Mention_Mary12> .
+<https://w3id.org/tav#Anno_Mary05> <https://w3id.org/tav#body> <https://w3id.org/tav#Mention_Mary13> .
+<https://w3id.org/tav#Anno_Mary05> <https://w3id.org/tav#target> <https://w3id.org/tav#Crimea> .
+<https://w3id.org/tav#Anno_Mary05> <https://w3id.org/tav#target> <https://w3id.org/tav#CypressTree> .
+<https://w3id.org/tav#Anno_Mary05> <https://w3id.org/tav#target> <https://w3id.org/tav#Death> .
+# 
+# https://w3id.org/tav#Berlin
+<https://w3id.org/tav#Berlin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Berlin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#City> .
+<https://w3id.org/tav#Berlin> <https://w3id.org/tav#containedInRegion> <https://w3id.org/tav#Germany> .
+<https://w3id.org/tav#Berlin> <https://w3id.org/tav#name> "Berlin"@en .
+# 
+# https://w3id.org/tav#Bocklin
+<https://w3id.org/tav#Bocklin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Bocklin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Person> .
+<https://w3id.org/tav#Bocklin> <https://w3id.org/tav#referencedIn> <https://w3id.org/tav#Mary_Vintage> .
+<https://w3id.org/tav#Bocklin> <https://w3id.org/tav#name> "Arnold Böcklin"@en .
+# 
+# https://w3id.org/tav#Crimea
+<https://w3id.org/tav#Crimea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Crimea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#HistoricalOrCulturalRegion> .
+<https://w3id.org/tav#Crimea> <https://w3id.org/tav#name> "Crimea"@en .
+# 
+# https://w3id.org/tav#CypressTree
+<https://w3id.org/tav#CypressTree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#CypressTree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#TreeSpecies> .
+<https://w3id.org/tav#CypressTree> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://dbpedia.org/resource/Cupressus> .
+<https://w3id.org/tav#CypressTree> <http://www.w3.org/2004/02/skos/core#broadMatch> <https://www.wikidata.org/entity/Q146911> .
+<https://w3id.org/tav#CypressTree> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://www.wikidata.org/entity/Q147513> .
+<https://w3id.org/tav#CypressTree> <https://w3id.org/tav#naturalizedToLocation> <https://w3id.org/tav#Crimea> .
+<https://w3id.org/tav#CypressTree> <https://w3id.org/tav#name> "Cypress Tree"@en .
+# 
+# https://w3id.org/tav#Death
+<https://w3id.org/tav#Death> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Death> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#LiteraryTheme> .
+<https://w3id.org/tav#Death> <http://www.w3.org/2000/01/rdf-schema#label> "Death"@en .
+# 
+# https://w3id.org/tav#EnglishLanguage
+<https://w3id.org/tav#EnglishLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#EnglishLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Language> .
+<https://w3id.org/tav#EnglishLanguage> <https://w3id.org/tav#alternateName> "en"@en .
+<https://w3id.org/tav#EnglishLanguage> <https://w3id.org/tav#name> "English"@en .
+# 
+# https://w3id.org/tav#Europe
+<https://w3id.org/tav#Europe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Europe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Continent> .
+<https://w3id.org/tav#Europe> <https://w3id.org/tav#containsRegion> <https://w3id.org/tav#Crimea> .
+<https://w3id.org/tav#Europe> <https://w3id.org/tav#containsRegion> <https://w3id.org/tav#Germany> .
+<https://w3id.org/tav#Europe> <https://w3id.org/tav#containsRegion> <https://w3id.org/tav#Russia> .
+<https://w3id.org/tav#Europe> <https://w3id.org/tav#name> "Europe"@en .
+# 
+# https://w3id.org/tav#FirstLove
+<https://w3id.org/tav#FirstLove> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#FirstLove> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#LiteraryTheme> .
+<https://w3id.org/tav#FirstLove> <http://www.w3.org/2000/01/rdf-schema#label> "First Love"@en .
+# 
+# https://w3id.org/tav#Frames
+<https://w3id.org/tav#Frames> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Frames> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#LiteraryTheme> .
+<https://w3id.org/tav#Frames> <http://www.w3.org/2000/01/rdf-schema#label> "Frames"@en .
+# 
+# https://w3id.org/tav#Germany
+<https://w3id.org/tav#Germany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Germany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Country> .
+<https://w3id.org/tav#Germany> <https://w3id.org/tav#name> "Germany"@en .
+# 
+# https://w3id.org/tav#IsleOfTheDead
+<https://w3id.org/tav#IsleOfTheDead> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#IsleOfTheDead> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Painting> .
+<https://w3id.org/tav#IsleOfTheDead> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/entity/Q669994> .
+<https://w3id.org/tav#IsleOfTheDead> <https://w3id.org/tav#containsReferenceTo> <https://w3id.org/tav#CypressTree> .
+<https://w3id.org/tav#IsleOfTheDead> <https://w3id.org/tav#containsReferenceTo> <https://w3id.org/tav#Death> .
+<https://w3id.org/tav#IsleOfTheDead> <https://w3id.org/tav#hasAuthor> <https://w3id.org/tav#Bocklin> .
+<https://w3id.org/tav#IsleOfTheDead> <https://w3id.org/tav#name> "Die Toteninsel"@de .
+# 
+# https://www.wikidata.org/entity/Q669994
+# 
+# https://w3id.org/tav#LindenTree
+<https://w3id.org/tav#LindenTree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#LindenTree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#TreeSpecies> .
+<https://w3id.org/tav#LindenTree> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://dbpedia.org/resource/Tilia> .
+<https://w3id.org/tav#LindenTree> <http://www.w3.org/2004/02/skos/core#broadMatch> <https://www.wikidata.org/entity/Q127849> .
+<https://w3id.org/tav#LindenTree> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://www.wikidata.org/entity/Q158746> .
+<https://w3id.org/tav#LindenTree> <http://www.w3.org/2004/02/skos/core#exactMatch> <https://www.wikidata.org/entity/Q163760> .
+<https://w3id.org/tav#LindenTree> <http://www.w3.org/2004/02/skos/core#relatedMatch> <https://www.wikidata.org/entity/Q163981> .
+<https://w3id.org/tav#LindenTree> <https://w3id.org/tav#naturalizedToLocation> <https://w3id.org/tav#StPetersburgOblast> .
+<https://w3id.org/tav#LindenTree> <https://w3id.org/tav#alternateName> "Lime Tree"@en .
+<https://w3id.org/tav#LindenTree> <https://w3id.org/tav#name> "Linden Tree"@en .
+# 
+# https://w3id.org/tav#Mary
+<https://w3id.org/tav#Mary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Mary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Book> .
+<https://w3id.org/tav#Mary> <https://w3id.org/tav#contentLanguage> <https://w3id.org/tav#EnglishLanguage> .
+<https://w3id.org/tav#Mary> <https://w3id.org/tav#hasAuthor> <https://w3id.org/tav#Nabokov> .
+<https://w3id.org/tav#Mary> <https://w3id.org/tav#hasTranslator> <https://w3id.org/tav#MichaelGlenny> .
+<https://w3id.org/tav#Mary> <https://w3id.org/tav#hasTranslator> <https://w3id.org/tav#Nabokov> .
+<https://w3id.org/tav#Mary> <https://w3id.org/tav#translationOfWork> <https://w3id.org/tav#Mashenka> .
+<https://w3id.org/tav#Mary> <https://w3id.org/tav#name> "Mary"@en .
+<https://w3id.org/tav#Mary> <https://w3id.org/tav#publicationYear> "1970"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+# 
+# https://w3id.org/tav#Mary_Vintage
+<https://w3id.org/tav#Mary_Vintage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Mary_Vintage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Book> .
+<https://w3id.org/tav#Mary_Vintage> <https://w3id.org/tav#containsReferenceTo> <https://w3id.org/tav#IsleOfTheDead> .
+<https://w3id.org/tav#Mary_Vintage> <https://w3id.org/tav#contentLanguage> <https://w3id.org/tav#EnglishLanguage> .
+<https://w3id.org/tav#Mary_Vintage> <https://w3id.org/tav#hasAuthor> <https://w3id.org/tav#Nabokov> .
+<https://w3id.org/tav#Mary_Vintage> <https://w3id.org/tav#hasPublisher> <https://w3id.org/tav#VintageBooks> .
+<https://w3id.org/tav#Mary_Vintage> <https://w3id.org/tav#hasStoryLocation> <https://w3id.org/tav#StPetersburgOblast> .
+<https://w3id.org/tav#Mary_Vintage> <https://w3id.org/tav#versionOfWork> <https://w3id.org/tav#Mary> .
+<https://w3id.org/tav#Mary_Vintage> <https://w3id.org/tav#abbvTitle> "Mary"@en .
+<https://w3id.org/tav#Mary_Vintage> <https://w3id.org/tav#editionName> "1st Vintage International ed."@en .
+<https://w3id.org/tav#Mary_Vintage> <https://w3id.org/tav#name> "Mary"@en .
+<https://w3id.org/tav#Mary_Vintage> <https://w3id.org/tav#numberOfPages> "114"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://w3id.org/tav#Mary_Vintage> <https://w3id.org/tav#publicationYear> "1989"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+<https://w3id.org/tav#Mary_Vintage> <https://w3id.org/tav#wordCount> "34805"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# https://w3id.org/tav#Mashenka
+<https://w3id.org/tav#Mashenka> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Mashenka> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Book> .
+<https://w3id.org/tav#Mashenka> <https://w3id.org/tav#contentLanguage> <https://w3id.org/tav#RussianLanguage> .
+<https://w3id.org/tav#Mashenka> <https://w3id.org/tav#hasAuthor> <https://w3id.org/tav#Nabokov> .
+<https://w3id.org/tav#Mashenka> <https://w3id.org/tav#hasWorkTranslation> <https://w3id.org/tav#Mary> .
+<https://w3id.org/tav#Mashenka> <https://w3id.org/tav#name> "Mashen’ka"@ru .
+<https://w3id.org/tav#Mashenka> <https://w3id.org/tav#publicationYear> "1926"^^<http://www.w3.org/2001/XMLSchema#gYear> .
+# 
+# https://w3id.org/tav#Mention_Mary01
+<https://w3id.org/tav#Mention_Mary01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Mention_Mary01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Mention> .
+<https://w3id.org/tav#Mention_Mary01> <https://w3id.org/tav#selector> <https://w3id.org/tav#Phrase_Mary.LimeT.01> .
+<https://w3id.org/tav#Mention_Mary01> <https://w3id.org/tav#source> <https://w3id.org/tav#Mary_Vintage> .
+# 
+# https://w3id.org/tav#Mention_Mary02
+<https://w3id.org/tav#Mention_Mary02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Mention_Mary02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Mention> .
+<https://w3id.org/tav#Mention_Mary02> <https://w3id.org/tav#selector> <https://w3id.org/tav#Phrase_Mary.LindenT.01> .
+<https://w3id.org/tav#Mention_Mary02> <https://w3id.org/tav#source> <https://w3id.org/tav#Mary_Vintage> .
+# 
+# https://w3id.org/tav#Mention_Mary03
+<https://w3id.org/tav#Mention_Mary03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Mention_Mary03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Mention> .
+<https://w3id.org/tav#Mention_Mary03> <https://w3id.org/tav#selector> <https://w3id.org/tav#Phrase_Mary.LimeT.02> .
+<https://w3id.org/tav#Mention_Mary03> <https://w3id.org/tav#source> <https://w3id.org/tav#Mary_Vintage> .
+# 
+# https://w3id.org/tav#Mention_Mary04
+<https://w3id.org/tav#Mention_Mary04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Mention_Mary04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Mention> .
+<https://w3id.org/tav#Mention_Mary04> <https://w3id.org/tav#selector> <https://w3id.org/tav#Phrase_Mary.LindenT.02> .
+<https://w3id.org/tav#Mention_Mary04> <https://w3id.org/tav#source> <https://w3id.org/tav#Mary_Vintage> .
+# 
+# https://w3id.org/tav#Mention_Mary05
+<https://w3id.org/tav#Mention_Mary05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Mention_Mary05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Mention> .
+<https://w3id.org/tav#Mention_Mary05> <https://w3id.org/tav#selector> <https://w3id.org/tav#Phrase_Mary.LimeT.03> .
+<https://w3id.org/tav#Mention_Mary05> <https://w3id.org/tav#source> <https://w3id.org/tav#Mary_Vintage> .
+# 
+# https://w3id.org/tav#Mention_Mary06
+<https://w3id.org/tav#Mention_Mary06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Mention_Mary06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Mention> .
+<https://w3id.org/tav#Mention_Mary06> <https://w3id.org/tav#selector> <https://w3id.org/tav#Phrase_Mary.LindenT.03> .
+<https://w3id.org/tav#Mention_Mary06> <https://w3id.org/tav#source> <https://w3id.org/tav#Mary_Vintage> .
+# 
+# https://w3id.org/tav#Mention_Mary07
+<https://w3id.org/tav#Mention_Mary07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Mention_Mary07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Mention> .
+<https://w3id.org/tav#Mention_Mary07> <https://w3id.org/tav#selector> <https://w3id.org/tav#Phrase_Mary.LimeT.04> .
+<https://w3id.org/tav#Mention_Mary07> <https://w3id.org/tav#source> <https://w3id.org/tav#Mary_Vintage> .
+# 
+# https://w3id.org/tav#Mention_Mary08
+<https://w3id.org/tav#Mention_Mary08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Mention_Mary08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Mention> .
+<https://w3id.org/tav#Mention_Mary08> <https://w3id.org/tav#selector> <https://w3id.org/tav#Phrase_Mary.PalmT.01> .
+<https://w3id.org/tav#Mention_Mary08> <https://w3id.org/tav#source> <https://w3id.org/tav#Mary_Vintage> .
+# 
+# https://w3id.org/tav#Mention_Mary11
+<https://w3id.org/tav#Mention_Mary11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Mention_Mary11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Mention> .
+<https://w3id.org/tav#Mention_Mary11> <https://w3id.org/tav#selector> <https://w3id.org/tav#Phrase_Mary.CypressT.01> .
+<https://w3id.org/tav#Mention_Mary11> <https://w3id.org/tav#source> <https://w3id.org/tav#Mary_Vintage> .
+# 
+# https://w3id.org/tav#Mention_Mary12
+<https://w3id.org/tav#Mention_Mary12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Mention_Mary12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Mention> .
+<https://w3id.org/tav#Mention_Mary12> <https://w3id.org/tav#selector> <https://w3id.org/tav#Phrase_Mary.CypressT.02> .
+<https://w3id.org/tav#Mention_Mary12> <https://w3id.org/tav#source> <https://w3id.org/tav#Mary_Vintage> .
+# 
+# https://w3id.org/tav#Mention_Mary13
+<https://w3id.org/tav#Mention_Mary13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Mention_Mary13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Mention> .
+<https://w3id.org/tav#Mention_Mary13> <https://w3id.org/tav#selector> <https://w3id.org/tav#Phrase_Mary.Cypress.01> .
+<https://w3id.org/tav#Mention_Mary13> <https://w3id.org/tav#source> <https://w3id.org/tav#Mary_Vintage> .
+# 
+# https://w3id.org/tav#MichaelGlenny
+<https://w3id.org/tav#MichaelGlenny> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#MichaelGlenny> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Person> .
+<https://w3id.org/tav#MichaelGlenny> <https://w3id.org/tav#name> "Michael Glenny"@en .
+# 
+# https://w3id.org/tav#NS_Mary-02.018
+<https://w3id.org/tav#NS_Mary-02.018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#NS_Mary-02.018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#DocumentSegmentSelector> .
+<https://w3id.org/tav#NS_Mary-02.018> <https://w3id.org/tav#occursIn> <https://w3id.org/tav#Mary_Vintage> .
+<https://w3id.org/tav#NS_Mary-02.018> <https://w3id.org/tav#chapterLabel> "Ch. 2" .
+<https://w3id.org/tav#NS_Mary-02.018> <https://w3id.org/tav#pageNo> "18"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# https://w3id.org/tav#NS_Mary-04.032
+<https://w3id.org/tav#NS_Mary-04.032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#NS_Mary-04.032> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#DocumentSegmentSelector> .
+<https://w3id.org/tav#NS_Mary-04.032> <https://w3id.org/tav#occursIn> <https://w3id.org/tav#Mary_Vintage> .
+<https://w3id.org/tav#NS_Mary-04.032> <https://w3id.org/tav#chapterLabel> "Ch. 4" .
+<https://w3id.org/tav#NS_Mary-04.032> <https://w3id.org/tav#pageNo> "32"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# https://w3id.org/tav#NS_Mary-04.034
+<https://w3id.org/tav#NS_Mary-04.034> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#NS_Mary-04.034> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#DocumentSegmentSelector> .
+<https://w3id.org/tav#NS_Mary-04.034> <https://w3id.org/tav#occursIn> <https://w3id.org/tav#Mary_Vintage> .
+<https://w3id.org/tav#NS_Mary-04.034> <https://w3id.org/tav#chapterLabel> "Ch. 4" .
+<https://w3id.org/tav#NS_Mary-04.034> <https://w3id.org/tav#pageNo> "34"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# https://w3id.org/tav#NS_Mary-04.036
+<https://w3id.org/tav#NS_Mary-04.036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#NS_Mary-04.036> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#DocumentSegmentSelector> .
+<https://w3id.org/tav#NS_Mary-04.036> <https://w3id.org/tav#occursIn> <https://w3id.org/tav#Mary_Vintage> .
+<https://w3id.org/tav#NS_Mary-04.036> <https://w3id.org/tav#chapterLabel> "Ch. 4" .
+<https://w3id.org/tav#NS_Mary-04.036> <https://w3id.org/tav#pageNo> "36"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# https://w3id.org/tav#NS_Mary-08.059
+<https://w3id.org/tav#NS_Mary-08.059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#NS_Mary-08.059> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#DocumentSegmentSelector> .
+<https://w3id.org/tav#NS_Mary-08.059> <https://w3id.org/tav#occursIn> <https://w3id.org/tav#Mary_Vintage> .
+<https://w3id.org/tav#NS_Mary-08.059> <https://w3id.org/tav#chapterLabel> "Ch. 8" .
+<https://w3id.org/tav#NS_Mary-08.059> <https://w3id.org/tav#pageNo> "59"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# https://w3id.org/tav#NS_Mary-09.067
+<https://w3id.org/tav#NS_Mary-09.067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#NS_Mary-09.067> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#DocumentSegmentSelector> .
+<https://w3id.org/tav#NS_Mary-09.067> <https://w3id.org/tav#occursIn> <https://w3id.org/tav#Mary_Vintage> .
+<https://w3id.org/tav#NS_Mary-09.067> <https://w3id.org/tav#chapterLabel> "Ch. 9" .
+<https://w3id.org/tav#NS_Mary-09.067> <https://w3id.org/tav#pageNo> "67"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# https://w3id.org/tav#NS_Mary-09.072
+<https://w3id.org/tav#NS_Mary-09.072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#NS_Mary-09.072> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#DocumentSegmentSelector> .
+<https://w3id.org/tav#NS_Mary-09.072> <https://w3id.org/tav#occursIn> <https://w3id.org/tav#Mary_Vintage> .
+<https://w3id.org/tav#NS_Mary-09.072> <https://w3id.org/tav#chapterLabel> "Ch. 9" .
+<https://w3id.org/tav#NS_Mary-09.072> <https://w3id.org/tav#pageNo> "72"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# https://w3id.org/tav#NS_Mary-13.089
+<https://w3id.org/tav#NS_Mary-13.089> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#NS_Mary-13.089> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#DocumentSegmentSelector> .
+<https://w3id.org/tav#NS_Mary-13.089> <https://w3id.org/tav#occursIn> <https://w3id.org/tav#Mary_Vintage> .
+<https://w3id.org/tav#NS_Mary-13.089> <https://w3id.org/tav#chapterLabel> "Ch. 13" .
+<https://w3id.org/tav#NS_Mary-13.089> <https://w3id.org/tav#pageNo> "89"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# https://w3id.org/tav#NS_Mary-13.090
+<https://w3id.org/tav#NS_Mary-13.090> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#NS_Mary-13.090> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#DocumentSegmentSelector> .
+<https://w3id.org/tav#NS_Mary-13.090> <https://w3id.org/tav#occursIn> <https://w3id.org/tav#Mary_Vintage> .
+<https://w3id.org/tav#NS_Mary-13.090> <https://w3id.org/tav#chapterLabel> "Ch. 13" .
+<https://w3id.org/tav#NS_Mary-13.090> <https://w3id.org/tav#pageNo> "90"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# https://w3id.org/tav#NS_Mary-16.108
+<https://w3id.org/tav#NS_Mary-16.108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#NS_Mary-16.108> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#DocumentSegmentSelector> .
+<https://w3id.org/tav#NS_Mary-16.108> <https://w3id.org/tav#occursIn> <https://w3id.org/tav#Mary_Vintage> .
+<https://w3id.org/tav#NS_Mary-16.108> <https://w3id.org/tav#chapterLabel> "Ch. 16" .
+<https://w3id.org/tav#NS_Mary-16.108> <https://w3id.org/tav#pageNo> "108"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# https://w3id.org/tav#Nabokov
+<https://w3id.org/tav#Nabokov> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Nabokov> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Person> .
+<https://w3id.org/tav#Nabokov> <http://www.w3.org/2002/07/owl#sameAs> <https://www.wikidata.org/entity/Q36591> .
+<https://w3id.org/tav#Nabokov> <https://w3id.org/tav#firstName> "Vladimir Vladimirovich"@en .
+<https://w3id.org/tav#Nabokov> <https://w3id.org/tav#givenName> "Nabokov"@en .
+<https://w3id.org/tav#Nabokov> <https://w3id.org/tav#name> "Vladimir Vladimirovich Nabokov"@en .
+<https://w3id.org/tav#Nabokov> <https://w3id.org/tav#name> "Владимир Набоков"@ru .
+# 
+# https://www.wikidata.org/entity/Q36591
+# 
+# https://w3id.org/tav#PalmTree
+<https://w3id.org/tav#PalmTree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#PalmTree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#TreeSpecies> .
+<https://w3id.org/tav#PalmTree> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://dbpedia.org/resource/Arecaceae> .
+<https://w3id.org/tav#PalmTree> <http://www.w3.org/2004/02/skos/core#broadMatch> <https://www.wikidata.org/entity/Q14080> .
+<https://w3id.org/tav#PalmTree> <http://www.w3.org/2004/02/skos/core#relatedMatch> <https://www.wikidata.org/entity/Q25292> .
+<https://w3id.org/tav#PalmTree> <https://w3id.org/tav#exoticToLocation> <https://w3id.org/tav#Berlin> .
+<https://w3id.org/tav#PalmTree> <https://w3id.org/tav#name> "Palm Tree"@en .
+# 
+# https://w3id.org/tav#Phrase_Mary.Cypress.01
+<https://w3id.org/tav#Phrase_Mary.Cypress.01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Phrase_Mary.Cypress.01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#TextSelector> .
+<https://w3id.org/tav#Phrase_Mary.Cypress.01> <https://w3id.org/tav#occursIn> <https://w3id.org/tav#NS_Mary-04.036> .
+<https://w3id.org/tav#Phrase_Mary.Cypress.01> <https://w3id.org/tav#exactText> "Böcklin's Isle of the Dead" .
+# 
+# https://w3id.org/tav#Phrase_Mary.CypressT.01
+<https://w3id.org/tav#Phrase_Mary.CypressT.01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Phrase_Mary.CypressT.01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#TextSelector> .
+<https://w3id.org/tav#Phrase_Mary.CypressT.01> <https://w3id.org/tav#occursIn> <https://w3id.org/tav#NS_Mary-13.089> .
+<https://w3id.org/tav#Phrase_Mary.CypressT.01> <https://w3id.org/tav#exactText> "the cypresses" .
+<https://w3id.org/tav#Phrase_Mary.CypressT.01> <https://w3id.org/tav#prefixText> "about" .
+<https://w3id.org/tav#Phrase_Mary.CypressT.01> <https://w3id.org/tav#suffixText> "in the garden" .
+# 
+# https://w3id.org/tav#Phrase_Mary.CypressT.02
+<https://w3id.org/tav#Phrase_Mary.CypressT.02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Phrase_Mary.CypressT.02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#TextSelector> .
+<https://w3id.org/tav#Phrase_Mary.CypressT.02> <https://w3id.org/tav#occursIn> <https://w3id.org/tav#NS_Mary-13.090> .
+<https://w3id.org/tav#Phrase_Mary.CypressT.02> <https://w3id.org/tav#exactText> "cypress avenues" .
+<https://w3id.org/tav#Phrase_Mary.CypressT.02> <https://w3id.org/tav#prefixText> "of the narrow" .
+# 
+# https://w3id.org/tav#Phrase_Mary.LimeT.01
+<https://w3id.org/tav#Phrase_Mary.LimeT.01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Phrase_Mary.LimeT.01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#TextSelector> .
+<https://w3id.org/tav#Phrase_Mary.LimeT.01> <https://w3id.org/tav#occursIn> <https://w3id.org/tav#NS_Mary-04.032> .
+<https://w3id.org/tav#Phrase_Mary.LimeT.01> <https://w3id.org/tav#exactText> "lime trees" .
+<https://w3id.org/tav#Phrase_Mary.LimeT.01> <https://w3id.org/tav#prefixText> "the tops of" .
+# 
+# https://w3id.org/tav#Phrase_Mary.LimeT.02
+<https://w3id.org/tav#Phrase_Mary.LimeT.02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Phrase_Mary.LimeT.02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#TextSelector> .
+<https://w3id.org/tav#Phrase_Mary.LimeT.02> <https://w3id.org/tav#occursIn> <https://w3id.org/tav#NS_Mary-08.059> .
+<https://w3id.org/tav#Phrase_Mary.LimeT.02> <https://w3id.org/tav#exactText> "lime trees" .
+<https://w3id.org/tav#Phrase_Mary.LimeT.02> <https://w3id.org/tav#prefixText> "under the" .
+<https://w3id.org/tav#Phrase_Mary.LimeT.02> <https://w3id.org/tav#suffixText> "on a broad terrace" .
+# 
+# https://w3id.org/tav#Phrase_Mary.LimeT.03
+<https://w3id.org/tav#Phrase_Mary.LimeT.03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Phrase_Mary.LimeT.03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#TextSelector> .
+<https://w3id.org/tav#Phrase_Mary.LimeT.03> <https://w3id.org/tav#occursIn> <https://w3id.org/tav#NS_Mary-09.067> .
+<https://w3id.org/tav#Phrase_Mary.LimeT.03> <https://w3id.org/tav#exactText> "the limes" .
+<https://w3id.org/tav#Phrase_Mary.LimeT.03> <https://w3id.org/tav#prefixText> "downpour surged through" .
+# 
+# https://w3id.org/tav#Phrase_Mary.LimeT.04
+<https://w3id.org/tav#Phrase_Mary.LimeT.04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Phrase_Mary.LimeT.04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#TextSelector> .
+<https://w3id.org/tav#Phrase_Mary.LimeT.04> <https://w3id.org/tav#occursIn> <https://w3id.org/tav#NS_Mary-16.108> .
+<https://w3id.org/tav#Phrase_Mary.LimeT.04> <https://w3id.org/tav#exactText> "lime trees" .
+<https://w3id.org/tav#Phrase_Mary.LimeT.04> <https://w3id.org/tav#prefixText> "dappled shadows of the" .
+<https://w3id.org/tav#Phrase_Mary.LimeT.04> <https://w3id.org/tav#suffixText> "in bloom" .
+# 
+# https://w3id.org/tav#Phrase_Mary.LindenT.01
+<https://w3id.org/tav#Phrase_Mary.LindenT.01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Phrase_Mary.LindenT.01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#TextSelector> .
+<https://w3id.org/tav#Phrase_Mary.LindenT.01> <https://w3id.org/tav#occursIn> <https://w3id.org/tav#NS_Mary-04.034> .
+<https://w3id.org/tav#Phrase_Mary.LindenT.01> <https://w3id.org/tav#exactText> "the lindens" .
+<https://w3id.org/tav#Phrase_Mary.LindenT.01> <https://w3id.org/tav#prefixText> "gap between" .
+# 
+# https://w3id.org/tav#Phrase_Mary.LindenT.02
+<https://w3id.org/tav#Phrase_Mary.LindenT.02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Phrase_Mary.LindenT.02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#TextSelector> .
+<https://w3id.org/tav#Phrase_Mary.LindenT.02> <https://w3id.org/tav#occursIn> <https://w3id.org/tav#NS_Mary-08.059> .
+<https://w3id.org/tav#Phrase_Mary.LindenT.02> <https://w3id.org/tav#exactText> "linden foliage" .
+<https://w3id.org/tav#Phrase_Mary.LindenT.02> <https://w3id.org/tav#prefixText> "at normal times was" .
+<https://w3id.org/tav#Phrase_Mary.LindenT.02> <https://w3id.org/tav#suffixText> "announced to Mary" .
+# 
+# https://w3id.org/tav#Phrase_Mary.LindenT.03
+<https://w3id.org/tav#Phrase_Mary.LindenT.03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Phrase_Mary.LindenT.03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#TextSelector> .
+<https://w3id.org/tav#Phrase_Mary.LindenT.03> <https://w3id.org/tav#occursIn> <https://w3id.org/tav#NS_Mary-09.072> .
+<https://w3id.org/tav#Phrase_Mary.LindenT.03> <https://w3id.org/tav#exactText> "lindens" .
+<https://w3id.org/tav#Phrase_Mary.LindenT.03> <https://w3id.org/tav#prefixText> "under the" .
+<https://w3id.org/tav#Phrase_Mary.LindenT.03> <https://w3id.org/tav#suffixText> "of that spacious public park" .
+# 
+# https://w3id.org/tav#Phrase_Mary.PalmT.01
+<https://w3id.org/tav#Phrase_Mary.PalmT.01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Phrase_Mary.PalmT.01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#TextSelector> .
+<https://w3id.org/tav#Phrase_Mary.PalmT.01> <https://w3id.org/tav#occursIn> <https://w3id.org/tav#NS_Mary-02.018> .
+<https://w3id.org/tav#Phrase_Mary.PalmT.01> <https://w3id.org/tav#exactText> "chocolate-brown palms" .
+# 
+# https://w3id.org/tav#Russia
+<https://w3id.org/tav#Russia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#Russia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Country> .
+<https://w3id.org/tav#Russia> <https://w3id.org/tav#containsRegion> <https://w3id.org/tav#StPetersburgOblast> .
+<https://w3id.org/tav#Russia> <https://w3id.org/tav#name> "Russia"@en .
+# 
+# https://w3id.org/tav#RussianLanguage
+<https://w3id.org/tav#RussianLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#RussianLanguage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Language> .
+<https://w3id.org/tav#RussianLanguage> <https://w3id.org/tav#alternateName> "ru"@ru .
+<https://w3id.org/tav#RussianLanguage> <https://w3id.org/tav#name> "Russian"@en .
+# 
+# https://w3id.org/tav#StPetersburgOblast
+<https://w3id.org/tav#StPetersburgOblast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#StPetersburgOblast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#AdministrativeRegion> .
+<https://w3id.org/tav#StPetersburgOblast> <https://w3id.org/tav#name> "St. Petersburg Oblast"@en .
+# 
+# https://w3id.org/tav#VintageBooks
+<https://w3id.org/tav#VintageBooks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/tav#VintageBooks> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/tav#Organization> .
+<https://w3id.org/tav#VintageBooks> <https://w3id.org/tav#name> "Vintage Books"@en .
+# 
+# https://www.wikidata.org/entity/Q127849
+<https://www.wikidata.org/entity/Q127849> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/entity/Q127849> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.wikidata.org/entity/Q16521> .
+<https://www.wikidata.org/entity/Q127849> <http://www.w3.org/2000/01/rdf-schema#label> "Tilia"@en .
+<https://www.wikidata.org/entity/Q127849> <http://www.w3.org/2004/02/skos/core#altLabel> "Lime genus"@en .
+<https://www.wikidata.org/entity/Q127849> <http://www.w3.org/2004/02/skos/core#altLabel> "Linden genus"@en .
+# 
+# https://www.wikidata.org/entity/Q14080
+<https://www.wikidata.org/entity/Q14080> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/entity/Q14080> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.wikidata.org/entity/Q16521> .
+<https://www.wikidata.org/entity/Q14080> <http://www.w3.org/2000/01/rdf-schema#label> "Arecaceae"@en .
+<https://www.wikidata.org/entity/Q14080> <http://www.w3.org/2004/02/skos/core#altLabel> "palm trees"@en .
+# 
+# https://www.wikidata.org/entity/Q146911
+<https://www.wikidata.org/entity/Q146911> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/entity/Q146911> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.wikidata.org/entity/Q16521> .
+<https://www.wikidata.org/entity/Q146911> <http://www.w3.org/2000/01/rdf-schema#label> "Cupressus"@en .
+<https://www.wikidata.org/entity/Q146911> <http://www.w3.org/2004/02/skos/core#altLabel> "Cypress"@en .
+# 
+# https://www.wikidata.org/entity/Q147513
+<https://www.wikidata.org/entity/Q147513> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/entity/Q147513> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.wikidata.org/entity/Q16521> .
+<https://www.wikidata.org/entity/Q147513> <http://www.w3.org/2000/01/rdf-schema#label> "Cupressus sempervirens"@en .
+<https://www.wikidata.org/entity/Q147513> <http://www.w3.org/2004/02/skos/core#altLabel> "Mediterranean Cypress"@en .
+# 
+# https://www.wikidata.org/entity/Q158746
+<https://www.wikidata.org/entity/Q158746> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/entity/Q158746> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.wikidata.org/entity/Q16521> .
+<https://www.wikidata.org/entity/Q158746> <http://www.w3.org/2000/01/rdf-schema#label> "Tilia cordata"@en .
+<https://www.wikidata.org/entity/Q158746> <http://www.w3.org/2004/02/skos/core#altLabel> "small-leaved lime"@en .
+<https://www.wikidata.org/entity/Q158746> <http://www.w3.org/2004/02/skos/core#altLabel> "small-leaved linden"@en .
+# 
+# https://www.wikidata.org/entity/Q163760
+<https://www.wikidata.org/entity/Q163760> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/entity/Q163760> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.wikidata.org/entity/Q16521> .
+<https://www.wikidata.org/entity/Q163760> <http://www.w3.org/2000/01/rdf-schema#label> "Tilia × europaea"@en .
+<https://www.wikidata.org/entity/Q163760> <http://www.w3.org/2004/02/skos/core#altLabel> "Tilia x vulgaris"@en .
+# 
+# https://www.wikidata.org/entity/Q163981
+<https://www.wikidata.org/entity/Q163981> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/entity/Q163981> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.wikidata.org/entity/Q16521> .
+<https://www.wikidata.org/entity/Q163981> <http://www.w3.org/2000/01/rdf-schema#label> "Tilia americana"@en .
+<https://www.wikidata.org/entity/Q163981> <http://www.w3.org/2004/02/skos/core#altLabel> "American basswood"@en .
+# 
+# https://www.wikidata.org/entity/Q25292
+<https://www.wikidata.org/entity/Q25292> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/entity/Q25292> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.wikidata.org/entity/Q16521> .
+<https://www.wikidata.org/entity/Q25292> <http://www.w3.org/2000/01/rdf-schema#label> "Phoenix dactylifera"@en .
+<https://www.wikidata.org/entity/Q25292> <http://www.w3.org/2004/02/skos/core#altLabel> "date palm"@en .
+# 
+# https://www.wikidata.org/entity/Q36591
+<https://www.wikidata.org/entity/Q36591> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/entity/Q36591> <http://www.w3.org/2000/01/rdf-schema#label> "Vladimir Nabokov"@en .
+<https://www.wikidata.org/entity/Q36591> <http://www.w3.org/2004/02/skos/core#altLabel> "Vladimir Vladimirovich Nabokov"@en .
+# 
+# https://www.wikidata.org/entity/Q669994
+<https://www.wikidata.org/entity/Q669994> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://www.wikidata.org/entity/Q669994> <http://www.w3.org/2000/01/rdf-schema#comment> "Painting series by Arnold Böcklin"@en .
+<https://www.wikidata.org/entity/Q669994> <http://www.w3.org/2000/01/rdf-schema#label> "Isle of the Dead"@en .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

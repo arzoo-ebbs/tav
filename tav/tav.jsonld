@@ -1,0 +1,2583 @@
+[ {
+  "@id" : "http://dbpedia.org/resource/Arecaceae",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The Arecaceae is a family of perennial flowering plants in the monocot order Arecales. Their growth form can be climbers, shrubs, tree-like and stemless plants, all commonly known as palms. Those having a tree-like form are called palm trees. Currently, 181 genera with around 2,600 species are known, most of which are restricted to tropical and subtropical climates. Most palms are distinguished by their large, compound, evergreen leaves, known as fronds, arranged at the top of an unbranched stem. However, palms exhibit an enormous diversity in physical characteristics and inhabit nearly every type of habitat within their range, from rainforests to deserts."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Arecaceae"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Cupressus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Cupressus is one of several genera of evergreen conifers within the family Cupressaceae that have the common name cypress; for the others, see cypress. It is considered a polyphyletic group. Based on genetic and morphological analysis, the genus Cupressus is found in the subfamily Cupressoideae. The common name \"cypress\" comes via the Old French cipres from the Latin cyparissus, which is the latinisation of the Greek κυπάρισσος (kypárissos)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cupressus"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Tilia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Tilia is a genus of about 30 species of trees or bushes, native throughout most of the temperate Northern Hemisphere. The tree is known as linden for the European species, and basswood for North American species. In Britain and Ireland they are commonly called lime trees, although they are not related to the citrus lime. The genus occurs in Europe and eastern North America, but the greatest species diversity is found in Asia. Under the Cronquist classification system, this genus was placed in the family Tiliaceae, but genetic research summarised by the Angiosperm Phylogeny Group has resulted in the incorporation of this genus, and of most of the previous family, into the Malvaceae."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tilia"
+  } ]
+}, {
+  "@id" : "http://dbpedia.org/resource/Vladimir_Nabokov",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Vladimir Vladimirovich Nabokov (Russian: Владимир Владимирович Набоков [vlɐˈdʲimʲɪr vlɐˈdʲimʲɪrəvʲɪtɕ nɐˈbokəf]; 22 April [O.S. 10 April] 1899 – 2 July 1977), also known by the pen name Vladimir Sirin (Владимир Сирин), was a Russian-American novelist, poet, translator, and entomologist. Born in Imperial Russia in 1899, Nabokov wrote his first nine novels in Russian (1926–1938) while living in Berlin, where he met his wife. He achieved international acclaim and prominence after moving to the United States, where he began writing in English. Nabokov became an American citizen in 1945 and lived mostly on the East Coast before returning to Europe in 1961, where he settled in Montreux, Switzerland."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Vladimir Nabokov"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://w3id.org/tav#Nabokov"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#gYear",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#Collection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A meaningful collection of concepts."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Collection"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#Concept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A concept is a unit of thought—ideas, meanings, or categories of objects and events."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Concept"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#OrderedCollection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An ordered collection of concepts, where both the grouping and the ordering are meaningful."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ordered Collection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Collection"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#altLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#broadMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has broader match"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#broader"
+  }, {
+    "@id" : "http://www.w3.org/2004/02/skos/core#mappingRelation"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#narrowMatch"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has broader"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#semanticRelation"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#narrower"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#closeMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has close match"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#mappingRelation"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#definition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#note"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has exact match"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#closeMatch"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#example",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#note"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#mappingRelation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is in mapping relation with"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#semanticRelation"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#narrowMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has narrow match"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#mappingRelation"
+  }, {
+    "@id" : "http://www.w3.org/2004/02/skos/core#narrower"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#narrower",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has narrower"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#semanticRelation"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#note",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#related",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has related match"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#semanticRelation"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#relatedMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#SymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has related match"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#mappingRelation"
+  }, {
+    "@id" : "http://www.w3.org/2004/02/skos/core#related"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#scopeNote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#note"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#semanticRelation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is in semantic relation with"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@language" : "en",
+    "@value" : "Stephen H. Blackwell"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@language" : "en",
+    "@value" : "Shakeeb Arzoo"
+  }, {
+    "@value" : "http://aidanhogan.com/foaf.rdf#me"
+  } ],
+  "http://purl.org/dc/terms/date" : [ {
+    "@value" : "2024-08-12"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Tree Annotation Vocabulary (TAV) is an RDF vocabulary to describe the mentions of tree-like entities in literary works and link them to external databases to enrich their contextual background."
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "TAV: Tree Annotation Vocabulary"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@language" : "en",
+    "@value" : "https://doi.org/10.5281/zenodo.13382194"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://w3id.org/tav/1.0"
+  } ],
+  "https://w3id.org/tav#competencyQuestion" : [ {
+    "@language" : "en",
+    "@value" : "1. Where does (X) tree appear in a work by Nabokov? 2. What botanical species are appropriate for the (X) tree appearing in Nabokov? 3. Where does (X) tree appear in Nabokov’s entire oeuvre? 4. What places are associated with (X) tree in a work by Nabokov? 5. What Nabokovian characters are associated with (X) tree? 6. What literary themes are associated with (X) tree in a work by Nabokov? 7. What other trees are associated with (X) tree? 8. What wooden objects (Y) are thematically significant in a work by Nabokov? 9. What wooden objects (Y) are products of (X) tree? 10. What other notable authors or creative works mention these (X) tree?"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#AdministrativeRegion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A geographical region defined by their administrative boundaries."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Administrative Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#Region"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Agent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A person, organization, or any other artifact that can act or perform some role."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Agent"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Anno_Mary01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#LiteraryAnnotation"
+  } ],
+  "https://w3id.org/tav#body" : [ {
+    "@id" : "https://w3id.org/tav#Mention_Mary01"
+  }, {
+    "@id" : "https://w3id.org/tav#Mention_Mary02"
+  }, {
+    "@id" : "https://w3id.org/tav#Mention_Mary03"
+  }, {
+    "@id" : "https://w3id.org/tav#Mention_Mary04"
+  }, {
+    "@id" : "https://w3id.org/tav#Mention_Mary05"
+  }, {
+    "@id" : "https://w3id.org/tav#Mention_Mary06"
+  }, {
+    "@id" : "https://w3id.org/tav#Mention_Mary07"
+  } ],
+  "https://w3id.org/tav#target" : [ {
+    "@id" : "https://w3id.org/tav#FirstLove"
+  }, {
+    "@id" : "https://w3id.org/tav#LindenTree"
+  }, {
+    "@id" : "https://w3id.org/tav#StPetersburgOblast"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Anno_Mary02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#LiteraryAnnotation"
+  } ],
+  "https://w3id.org/tav#body" : [ {
+    "@id" : "https://w3id.org/tav#Mention_Mary08"
+  } ],
+  "https://w3id.org/tav#target" : [ {
+    "@id" : "https://w3id.org/tav#Berlin"
+  }, {
+    "@id" : "https://w3id.org/tav#Frames"
+  }, {
+    "@id" : "https://w3id.org/tav#PalmTree"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Anno_Mary05",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#LiteraryAnnotation"
+  } ],
+  "https://w3id.org/tav#body" : [ {
+    "@id" : "https://w3id.org/tav#Mention_Mary11"
+  }, {
+    "@id" : "https://w3id.org/tav#Mention_Mary12"
+  }, {
+    "@id" : "https://w3id.org/tav#Mention_Mary13"
+  } ],
+  "https://w3id.org/tav#target" : [ {
+    "@id" : "https://w3id.org/tav#Crimea"
+  }, {
+    "@id" : "https://w3id.org/tav#CypressTree"
+  }, {
+    "@id" : "https://w3id.org/tav#Death"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Anthology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A collection of selected literary documents having structural or thematic similarities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Anthology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#CollectedDocument"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "en",
+    "@value" : "Short Story Collection, American Poetry Collection"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Article",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A written composition in prose, usually nonfiction, on a specific topic, forming an independent part of a book or other publication, as a newspaper or magazine."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Article"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#Document"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Berlin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#City"
+  } ],
+  "https://w3id.org/tav#containedInRegion" : [ {
+    "@id" : "https://w3id.org/tav#Germany"
+  } ],
+  "https://w3id.org/tav#name" : [ {
+    "@language" : "en",
+    "@value" : "Berlin"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Bocklin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Person"
+  } ],
+  "https://w3id.org/tav#name" : [ {
+    "@language" : "en",
+    "@value" : "Arnold Böcklin"
+  } ],
+  "https://w3id.org/tav#referencedIn" : [ {
+    "@id" : "https://w3id.org/tav#Mary_Vintage"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Book",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An electronic or printed work of fiction or nonfiction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Book"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#Document"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#City",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A local administrative region falling under a municipality."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#AdministrativeRegion"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#CoastalArea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An area adjacent to a water body, such as an ocean or a sea characterized by unique natural features and ecosystems."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CoastalArea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#NaturalRegion"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#CollectedDocument",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A collection of Documents or Collections."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Collected Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#Document"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Continent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A continent is type of natural landform comprising a single landmass or as a part of large landmass."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Continent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#NaturalRegion"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A sovereign nation with defined borders and governance."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#AdministrativeRegion"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#CreativeWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The most generic kind of creative work."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Creative Work"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Crimea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#HistoricalOrCulturalRegion"
+  } ],
+  "https://w3id.org/tav#name" : [ {
+    "@language" : "en",
+    "@value" : "Crimea"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#CypressTree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#TreeSpecies"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broadMatch" : [ {
+    "@id" : "http://dbpedia.org/resource/Cupressus"
+  }, {
+    "@id" : "https://www.wikidata.org/entity/Q146911"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+    "@id" : "https://www.wikidata.org/entity/Q147513"
+  } ],
+  "https://w3id.org/tav#name" : [ {
+    "@language" : "en",
+    "@value" : "Cypress Tree"
+  } ],
+  "https://w3id.org/tav#naturalizedToLocation" : [ {
+    "@id" : "https://w3id.org/tav#Crimea"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Death",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#LiteraryTheme"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Death"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Document",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A written document of mainly textual character."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#DocumentSegmentSelector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It describes a named segment of a document having a clear structural boundary."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Document Segment Selector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#Selector"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#DramaticPlay",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A written fictional work intended for performance on stage or screen, consisting of scripted dialogue between characters."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Dramatic Play"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#Document"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#EnglishLanguage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Language"
+  } ],
+  "https://w3id.org/tav#alternateName" : [ {
+    "@language" : "en",
+    "@value" : "en"
+  } ],
+  "https://w3id.org/tav#name" : [ {
+    "@language" : "en",
+    "@value" : "English"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Europe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Continent"
+  } ],
+  "https://w3id.org/tav#containsRegion" : [ {
+    "@id" : "https://w3id.org/tav#Crimea"
+  }, {
+    "@id" : "https://w3id.org/tav#Germany"
+  }, {
+    "@id" : "https://w3id.org/tav#Russia"
+  } ],
+  "https://w3id.org/tav#name" : [ {
+    "@language" : "en",
+    "@value" : "Europe"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#FirstLove",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#LiteraryTheme"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "First Love"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Frames",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#LiteraryTheme"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Frames"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#GeographicalRegion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A specific area on the Earth's surface with common physical features and natural or artifical boundaries."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Geographical Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#Region"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Germany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Country"
+  } ],
+  "https://w3id.org/tav#name" : [ {
+    "@language" : "en",
+    "@value" : "Germany"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#HistoricalOrCulturalRegion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An area defined on their shared cultural or historical characteristics, such as language or tradition."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Historical or Cultural Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#GeographicalRegion"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#IsleOfTheDead",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Painting"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://www.wikidata.org/entity/Q669994"
+  } ],
+  "https://w3id.org/tav#containsReferenceTo" : [ {
+    "@id" : "https://w3id.org/tav#CypressTree"
+  }, {
+    "@id" : "https://w3id.org/tav#Death"
+  } ],
+  "https://w3id.org/tav#hasAuthor" : [ {
+    "@id" : "https://w3id.org/tav#Bocklin"
+  } ],
+  "https://w3id.org/tav#name" : [ {
+    "@language" : "de",
+    "@value" : "Die Toteninsel"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Lake",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A body of freshwater, usually surrounded by land."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Lake"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#WaterBody"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Natural languages that serve a communicative function, either in a written or oral form."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Language"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "en",
+    "@value" : "English, French, Hindi, Russian, Spanish"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#LindenTree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#TreeSpecies"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broadMatch" : [ {
+    "@id" : "http://dbpedia.org/resource/Tilia"
+  }, {
+    "@id" : "https://www.wikidata.org/entity/Q127849"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "https://www.wikidata.org/entity/Q158746"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+    "@id" : "https://www.wikidata.org/entity/Q163760"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#relatedMatch" : [ {
+    "@id" : "https://www.wikidata.org/entity/Q163981"
+  } ],
+  "https://w3id.org/tav#alternateName" : [ {
+    "@language" : "en",
+    "@value" : "Lime Tree"
+  } ],
+  "https://w3id.org/tav#name" : [ {
+    "@language" : "en",
+    "@value" : "Linden Tree"
+  } ],
+  "https://w3id.org/tav#naturalizedToLocation" : [ {
+    "@id" : "https://w3id.org/tav#StPetersburgOblast"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#LiteraryAnnotation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A literary annotation is a set of connected resources with a body and a target, suggesting that the body is somehow associated with the target."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Literary Annotation"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#LiteraryTheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A recurring idea, concept, or message explored in a literary work directly or indirectly."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Literary Theme"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Mary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Book"
+  } ],
+  "https://w3id.org/tav#contentLanguage" : [ {
+    "@id" : "https://w3id.org/tav#EnglishLanguage"
+  } ],
+  "https://w3id.org/tav#hasAuthor" : [ {
+    "@id" : "https://w3id.org/tav#Nabokov"
+  } ],
+  "https://w3id.org/tav#hasTranslator" : [ {
+    "@id" : "https://w3id.org/tav#MichaelGlenny"
+  }, {
+    "@id" : "https://w3id.org/tav#Nabokov"
+  } ],
+  "https://w3id.org/tav#name" : [ {
+    "@language" : "en",
+    "@value" : "Mary"
+  } ],
+  "https://w3id.org/tav#publicationYear" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value" : "1970"
+  } ],
+  "https://w3id.org/tav#translationOfWork" : [ {
+    "@id" : "https://w3id.org/tav#Mashenka"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Mary_Vintage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Book"
+  } ],
+  "https://w3id.org/tav#abbvTitle" : [ {
+    "@language" : "en",
+    "@value" : "Mary"
+  } ],
+  "https://w3id.org/tav#containsReferenceTo" : [ {
+    "@id" : "https://w3id.org/tav#IsleOfTheDead"
+  } ],
+  "https://w3id.org/tav#contentLanguage" : [ {
+    "@id" : "https://w3id.org/tav#EnglishLanguage"
+  } ],
+  "https://w3id.org/tav#editionName" : [ {
+    "@language" : "en",
+    "@value" : "1st Vintage International ed."
+  } ],
+  "https://w3id.org/tav#hasAuthor" : [ {
+    "@id" : "https://w3id.org/tav#Nabokov"
+  } ],
+  "https://w3id.org/tav#hasPublisher" : [ {
+    "@id" : "https://w3id.org/tav#VintageBooks"
+  } ],
+  "https://w3id.org/tav#hasStoryLocation" : [ {
+    "@id" : "https://w3id.org/tav#StPetersburgOblast"
+  } ],
+  "https://w3id.org/tav#name" : [ {
+    "@language" : "en",
+    "@value" : "Mary"
+  } ],
+  "https://w3id.org/tav#numberOfPages" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "114"
+  } ],
+  "https://w3id.org/tav#publicationYear" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value" : "1989"
+  } ],
+  "https://w3id.org/tav#versionOfWork" : [ {
+    "@id" : "https://w3id.org/tav#Mary"
+  } ],
+  "https://w3id.org/tav#wordCount" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "34805"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Mashenka",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Book"
+  } ],
+  "https://w3id.org/tav#contentLanguage" : [ {
+    "@id" : "https://w3id.org/tav#RussianLanguage"
+  } ],
+  "https://w3id.org/tav#hasAuthor" : [ {
+    "@id" : "https://w3id.org/tav#Nabokov"
+  } ],
+  "https://w3id.org/tav#hasWorkTranslation" : [ {
+    "@id" : "https://w3id.org/tav#Mary"
+  } ],
+  "https://w3id.org/tav#name" : [ {
+    "@language" : "ru",
+    "@value" : "Mashen’ka"
+  } ],
+  "https://w3id.org/tav#publicationYear" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#gYear",
+    "@value" : "1926"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Mention",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A mention is a specific occurrence or reference to an entity within a specified resource that is of interest to the annotator."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mention"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Mention_Mary01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Mention"
+  } ],
+  "https://w3id.org/tav#selector" : [ {
+    "@id" : "https://w3id.org/tav#Phrase_Mary.LimeT.01"
+  } ],
+  "https://w3id.org/tav#source" : [ {
+    "@id" : "https://w3id.org/tav#Mary_Vintage"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Mention_Mary02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Mention"
+  } ],
+  "https://w3id.org/tav#selector" : [ {
+    "@id" : "https://w3id.org/tav#Phrase_Mary.LindenT.01"
+  } ],
+  "https://w3id.org/tav#source" : [ {
+    "@id" : "https://w3id.org/tav#Mary_Vintage"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Mention_Mary03",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Mention"
+  } ],
+  "https://w3id.org/tav#selector" : [ {
+    "@id" : "https://w3id.org/tav#Phrase_Mary.LimeT.02"
+  } ],
+  "https://w3id.org/tav#source" : [ {
+    "@id" : "https://w3id.org/tav#Mary_Vintage"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Mention_Mary04",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Mention"
+  } ],
+  "https://w3id.org/tav#selector" : [ {
+    "@id" : "https://w3id.org/tav#Phrase_Mary.LindenT.02"
+  } ],
+  "https://w3id.org/tav#source" : [ {
+    "@id" : "https://w3id.org/tav#Mary_Vintage"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Mention_Mary05",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Mention"
+  } ],
+  "https://w3id.org/tav#selector" : [ {
+    "@id" : "https://w3id.org/tav#Phrase_Mary.LimeT.03"
+  } ],
+  "https://w3id.org/tav#source" : [ {
+    "@id" : "https://w3id.org/tav#Mary_Vintage"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Mention_Mary06",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Mention"
+  } ],
+  "https://w3id.org/tav#selector" : [ {
+    "@id" : "https://w3id.org/tav#Phrase_Mary.LindenT.03"
+  } ],
+  "https://w3id.org/tav#source" : [ {
+    "@id" : "https://w3id.org/tav#Mary_Vintage"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Mention_Mary07",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Mention"
+  } ],
+  "https://w3id.org/tav#selector" : [ {
+    "@id" : "https://w3id.org/tav#Phrase_Mary.LimeT.04"
+  } ],
+  "https://w3id.org/tav#source" : [ {
+    "@id" : "https://w3id.org/tav#Mary_Vintage"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Mention_Mary08",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Mention"
+  } ],
+  "https://w3id.org/tav#selector" : [ {
+    "@id" : "https://w3id.org/tav#Phrase_Mary.PalmT.01"
+  } ],
+  "https://w3id.org/tav#source" : [ {
+    "@id" : "https://w3id.org/tav#Mary_Vintage"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Mention_Mary11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Mention"
+  } ],
+  "https://w3id.org/tav#selector" : [ {
+    "@id" : "https://w3id.org/tav#Phrase_Mary.CypressT.01"
+  } ],
+  "https://w3id.org/tav#source" : [ {
+    "@id" : "https://w3id.org/tav#Mary_Vintage"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Mention_Mary12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Mention"
+  } ],
+  "https://w3id.org/tav#selector" : [ {
+    "@id" : "https://w3id.org/tav#Phrase_Mary.CypressT.02"
+  } ],
+  "https://w3id.org/tav#source" : [ {
+    "@id" : "https://w3id.org/tav#Mary_Vintage"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Mention_Mary13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Mention"
+  } ],
+  "https://w3id.org/tav#selector" : [ {
+    "@id" : "https://w3id.org/tav#Phrase_Mary.Cypress.01"
+  } ],
+  "https://w3id.org/tav#source" : [ {
+    "@id" : "https://w3id.org/tav#Mary_Vintage"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#MichaelGlenny",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Person"
+  } ],
+  "https://w3id.org/tav#name" : [ {
+    "@language" : "en",
+    "@value" : "Michael Glenny"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#MountainRange",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A continuous elevated landform having a shared, recognizable geographical origin."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mountain Range"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#NaturalRegion"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#NS_Mary-02.018",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#DocumentSegmentSelector"
+  } ],
+  "https://w3id.org/tav#chapterLabel" : [ {
+    "@value" : "Ch. 2"
+  } ],
+  "https://w3id.org/tav#occursIn" : [ {
+    "@id" : "https://w3id.org/tav#Mary_Vintage"
+  } ],
+  "https://w3id.org/tav#pageNo" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "18"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#NS_Mary-04.032",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#DocumentSegmentSelector"
+  } ],
+  "https://w3id.org/tav#chapterLabel" : [ {
+    "@value" : "Ch. 4"
+  } ],
+  "https://w3id.org/tav#occursIn" : [ {
+    "@id" : "https://w3id.org/tav#Mary_Vintage"
+  } ],
+  "https://w3id.org/tav#pageNo" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "32"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#NS_Mary-04.034",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#DocumentSegmentSelector"
+  } ],
+  "https://w3id.org/tav#chapterLabel" : [ {
+    "@value" : "Ch. 4"
+  } ],
+  "https://w3id.org/tav#occursIn" : [ {
+    "@id" : "https://w3id.org/tav#Mary_Vintage"
+  } ],
+  "https://w3id.org/tav#pageNo" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "34"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#NS_Mary-04.036",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#DocumentSegmentSelector"
+  } ],
+  "https://w3id.org/tav#chapterLabel" : [ {
+    "@value" : "Ch. 4"
+  } ],
+  "https://w3id.org/tav#occursIn" : [ {
+    "@id" : "https://w3id.org/tav#Mary_Vintage"
+  } ],
+  "https://w3id.org/tav#pageNo" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "36"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#NS_Mary-08.059",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#DocumentSegmentSelector"
+  } ],
+  "https://w3id.org/tav#chapterLabel" : [ {
+    "@value" : "Ch. 8"
+  } ],
+  "https://w3id.org/tav#occursIn" : [ {
+    "@id" : "https://w3id.org/tav#Mary_Vintage"
+  } ],
+  "https://w3id.org/tav#pageNo" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "59"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#NS_Mary-09.067",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#DocumentSegmentSelector"
+  } ],
+  "https://w3id.org/tav#chapterLabel" : [ {
+    "@value" : "Ch. 9"
+  } ],
+  "https://w3id.org/tav#occursIn" : [ {
+    "@id" : "https://w3id.org/tav#Mary_Vintage"
+  } ],
+  "https://w3id.org/tav#pageNo" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "67"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#NS_Mary-09.072",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#DocumentSegmentSelector"
+  } ],
+  "https://w3id.org/tav#chapterLabel" : [ {
+    "@value" : "Ch. 9"
+  } ],
+  "https://w3id.org/tav#occursIn" : [ {
+    "@id" : "https://w3id.org/tav#Mary_Vintage"
+  } ],
+  "https://w3id.org/tav#pageNo" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "72"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#NS_Mary-13.089",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#DocumentSegmentSelector"
+  } ],
+  "https://w3id.org/tav#chapterLabel" : [ {
+    "@value" : "Ch. 13"
+  } ],
+  "https://w3id.org/tav#occursIn" : [ {
+    "@id" : "https://w3id.org/tav#Mary_Vintage"
+  } ],
+  "https://w3id.org/tav#pageNo" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "89"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#NS_Mary-13.090",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#DocumentSegmentSelector"
+  } ],
+  "https://w3id.org/tav#chapterLabel" : [ {
+    "@value" : "Ch. 13"
+  } ],
+  "https://w3id.org/tav#occursIn" : [ {
+    "@id" : "https://w3id.org/tav#Mary_Vintage"
+  } ],
+  "https://w3id.org/tav#pageNo" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "90"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#NS_Mary-16.108",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#DocumentSegmentSelector"
+  } ],
+  "https://w3id.org/tav#chapterLabel" : [ {
+    "@value" : "Ch. 16"
+  } ],
+  "https://w3id.org/tav#occursIn" : [ {
+    "@id" : "https://w3id.org/tav#Mary_Vintage"
+  } ],
+  "https://w3id.org/tav#pageNo" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "108"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Nabokov",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Person"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://www.wikidata.org/entity/Q36591"
+  } ],
+  "https://w3id.org/tav#firstName" : [ {
+    "@language" : "en",
+    "@value" : "Vladimir Vladimirovich"
+  } ],
+  "https://w3id.org/tav#givenName" : [ {
+    "@language" : "en",
+    "@value" : "Nabokov"
+  } ],
+  "https://w3id.org/tav#name" : [ {
+    "@language" : "en",
+    "@value" : "Vladimir Vladimirovich Nabokov"
+  }, {
+    "@language" : "ru",
+    "@value" : "Владимир Набоков"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#NaturalRegion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An area defined on the basis of certain naturally occuring geographical features."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Natural Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#GeographicalRegion"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Ocean",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A vast, continuous body of saltwater covering the Earth's surface."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ocean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#WaterBody"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Organization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An organization, such as a company, institution, or group."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Organization"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#Agent"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Painting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A visual artwork created through the application of paint or similar medium."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Painting"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#PalmTree",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#TreeSpecies"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#broadMatch" : [ {
+    "@id" : "http://dbpedia.org/resource/Arecaceae"
+  }, {
+    "@id" : "https://www.wikidata.org/entity/Q14080"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#relatedMatch" : [ {
+    "@id" : "https://www.wikidata.org/entity/Q25292"
+  } ],
+  "https://w3id.org/tav#exoticToLocation" : [ {
+    "@id" : "https://w3id.org/tav#Berlin"
+  } ],
+  "https://w3id.org/tav#name" : [ {
+    "@language" : "en",
+    "@value" : "Palm Tree"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Periodical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A group of related documents issued at regular intervals."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Periodical"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#CollectedDocument"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A person (alive, dead, undead, or fictional)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#Agent"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Phrase_Mary.Cypress.01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#TextSelector"
+  } ],
+  "https://w3id.org/tav#exactText" : [ {
+    "@value" : "Böcklin's Isle of the Dead"
+  } ],
+  "https://w3id.org/tav#occursIn" : [ {
+    "@id" : "https://w3id.org/tav#NS_Mary-04.036"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Phrase_Mary.CypressT.01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#TextSelector"
+  } ],
+  "https://w3id.org/tav#exactText" : [ {
+    "@value" : "the cypresses"
+  } ],
+  "https://w3id.org/tav#occursIn" : [ {
+    "@id" : "https://w3id.org/tav#NS_Mary-13.089"
+  } ],
+  "https://w3id.org/tav#prefixText" : [ {
+    "@value" : "about"
+  } ],
+  "https://w3id.org/tav#suffixText" : [ {
+    "@value" : "in the garden"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Phrase_Mary.CypressT.02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#TextSelector"
+  } ],
+  "https://w3id.org/tav#exactText" : [ {
+    "@value" : "cypress avenues"
+  } ],
+  "https://w3id.org/tav#occursIn" : [ {
+    "@id" : "https://w3id.org/tav#NS_Mary-13.090"
+  } ],
+  "https://w3id.org/tav#prefixText" : [ {
+    "@value" : "of the narrow"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Phrase_Mary.LimeT.01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#TextSelector"
+  } ],
+  "https://w3id.org/tav#exactText" : [ {
+    "@value" : "lime trees"
+  } ],
+  "https://w3id.org/tav#occursIn" : [ {
+    "@id" : "https://w3id.org/tav#NS_Mary-04.032"
+  } ],
+  "https://w3id.org/tav#prefixText" : [ {
+    "@value" : "the tops of"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Phrase_Mary.LimeT.02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#TextSelector"
+  } ],
+  "https://w3id.org/tav#exactText" : [ {
+    "@value" : "lime trees"
+  } ],
+  "https://w3id.org/tav#occursIn" : [ {
+    "@id" : "https://w3id.org/tav#NS_Mary-08.059"
+  } ],
+  "https://w3id.org/tav#prefixText" : [ {
+    "@value" : "under the"
+  } ],
+  "https://w3id.org/tav#suffixText" : [ {
+    "@value" : "on a broad terrace"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Phrase_Mary.LimeT.03",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#TextSelector"
+  } ],
+  "https://w3id.org/tav#exactText" : [ {
+    "@value" : "the limes"
+  } ],
+  "https://w3id.org/tav#occursIn" : [ {
+    "@id" : "https://w3id.org/tav#NS_Mary-09.067"
+  } ],
+  "https://w3id.org/tav#prefixText" : [ {
+    "@value" : "downpour surged through"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Phrase_Mary.LimeT.04",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#TextSelector"
+  } ],
+  "https://w3id.org/tav#exactText" : [ {
+    "@value" : "lime trees"
+  } ],
+  "https://w3id.org/tav#occursIn" : [ {
+    "@id" : "https://w3id.org/tav#NS_Mary-16.108"
+  } ],
+  "https://w3id.org/tav#prefixText" : [ {
+    "@value" : "dappled shadows of the"
+  } ],
+  "https://w3id.org/tav#suffixText" : [ {
+    "@value" : "in bloom"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Phrase_Mary.LindenT.01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#TextSelector"
+  } ],
+  "https://w3id.org/tav#exactText" : [ {
+    "@value" : "the lindens"
+  } ],
+  "https://w3id.org/tav#occursIn" : [ {
+    "@id" : "https://w3id.org/tav#NS_Mary-04.034"
+  } ],
+  "https://w3id.org/tav#prefixText" : [ {
+    "@value" : "gap between"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Phrase_Mary.LindenT.02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#TextSelector"
+  } ],
+  "https://w3id.org/tav#exactText" : [ {
+    "@value" : "linden foliage"
+  } ],
+  "https://w3id.org/tav#occursIn" : [ {
+    "@id" : "https://w3id.org/tav#NS_Mary-08.059"
+  } ],
+  "https://w3id.org/tav#prefixText" : [ {
+    "@value" : "at normal times was"
+  } ],
+  "https://w3id.org/tav#suffixText" : [ {
+    "@value" : "announced to Mary"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Phrase_Mary.LindenT.03",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#TextSelector"
+  } ],
+  "https://w3id.org/tav#exactText" : [ {
+    "@value" : "lindens"
+  } ],
+  "https://w3id.org/tav#occursIn" : [ {
+    "@id" : "https://w3id.org/tav#NS_Mary-09.072"
+  } ],
+  "https://w3id.org/tav#prefixText" : [ {
+    "@value" : "under the"
+  } ],
+  "https://w3id.org/tav#suffixText" : [ {
+    "@value" : "of that spacious public park"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Phrase_Mary.PalmT.01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#TextSelector"
+  } ],
+  "https://w3id.org/tav#exactText" : [ {
+    "@value" : "chocolate-brown palms"
+  } ],
+  "https://w3id.org/tav#occursIn" : [ {
+    "@id" : "https://w3id.org/tav#NS_Mary-02.018"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Plant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A living organism that grows on the ground, typically having roots, stems, and leaves, and often producing flowers and seeds."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Plant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Poem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A creative writing piece that uses language in a imaginative and symbolic way to express thoughts, feelings, and ideas, often with a rhythmic or lyrical quality."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Poem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#Document"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Region",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An area or space defined on the basis of their geographical or administratrative features."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Region"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Place"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Russia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Country"
+  } ],
+  "https://w3id.org/tav#containsRegion" : [ {
+    "@id" : "https://w3id.org/tav#StPetersburgOblast"
+  } ],
+  "https://w3id.org/tav#name" : [ {
+    "@language" : "en",
+    "@value" : "Russia"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#RussianLanguage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Language"
+  } ],
+  "https://w3id.org/tav#alternateName" : [ {
+    "@language" : "ru",
+    "@value" : "ru"
+  } ],
+  "https://w3id.org/tav#name" : [ {
+    "@language" : "en",
+    "@value" : "Russian"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Sea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A smaller body of saltwater, usually connected to an ocean."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sea"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#WaterBody"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Selector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A resource which describes the segment of interest in a specific representation of a resource."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Selector"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#ShortStory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A brief work of fiction, characterized by its short length, written in narrative prose."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Short Story"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#Document"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#StPetersburgOblast",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#AdministrativeRegion"
+  } ],
+  "https://w3id.org/tav#name" : [ {
+    "@language" : "en",
+    "@value" : "St. Petersburg Oblast"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#State",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A primary administrative division of a country."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "State"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#AdministrativeRegion"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#SubnationalRegion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A region within a country grouped on the basis of shared cultural or geographical characteristics, not necessarily administrative."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Subnational Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#AdministrativeRegion"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Taxon",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A group of organisms that form a natural, cohesive biological unit."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Taxon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "https://www.wikidata.org/entity/Q16521"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#TextSelector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A textual segment describing a certain textual range by quoting it exactly, and by including a textual range before or after (or both) the targeted range to distinguish between multiple copies of the same sequence of characters."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Text Selector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#Selector"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#Town",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A town is a type of a human settlement larger than villages and smaller than cities."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Town"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#AdministrativeRegion"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#TreeMetonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Any part, component, structure of a tree or a collection of trees that represents its physical elements, or its aggregated grouping."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tree Metonym"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#example" : [ {
+    "@language" : "en",
+    "@value" : "Leaf, Branch, Foliage, Forest, Orchard"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#TreeSpecies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An accepted taxonomic classification of a tree, representing a group of trees that share common characteristics, from morphological to genetic."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tree Species"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#Plant"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#note" : [ {
+    "@language" : "en",
+    "@value" : "A tree is a big plant with a stick up the middle. [Colin Tudge, The Secret Life of Trees, 2005]"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#VintageBooks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/tav#Organization"
+  } ],
+  "https://w3id.org/tav#name" : [ {
+    "@language" : "en",
+    "@value" : "Vintage Books"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#WaterBody",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A body of water, such as a sea, ocean, or lake."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Water Body"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/tav#NaturalRegion"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#WoodenObject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A tangible object made primarily of wood, a natural material obtained from trees, which is often shaped, crafted, or manufactured to serve a specific purpose"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wooden Object"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#abbvTitle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "abbreviated title"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#alternateName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "alternate name"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#authorOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#Agent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "author of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/tav#hasAuthor"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#body",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#LiteraryAnnotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has body"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#bodyValue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#LiteraryAnnotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "body value"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#bookPart",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#Selector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "book part"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#chapterLabel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#DocumentSegmentSelector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "chapter label"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/tav#bookPart"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#characterIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "character in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/tav#hasCharacter"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#competencyQuestion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/tav#compositionYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "year of composition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#containedInRegion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "contained in region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/tav#Region"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/tav#containsRegion"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#containsReferenceTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "contains reference to"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/tav#referencedIn"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#containsRegion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "contains region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/tav#Region"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#contentLanguage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has content language"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/tav#Language"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#editionName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The name of a particular edition of book"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#Book"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "edition name"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#exactText",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#TextSelector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "exact text"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#exoticToLocation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#Plant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "exotic to location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/tav#Region"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#firstName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "first name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/tav#name"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#givenName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "given name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/tav#name"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#hasAuthor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has author"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/tav#Agent"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#hasCharacter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/tav#Person"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#hasItem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Collection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has item"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#hasPublisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has publisher"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/tav#Agent"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/tav#publisherOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#hasStoryLocation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Relates a narrative work to a location where the story takes place. This location may be fictional or real, and may be the primary or secondary setting for the story."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has story location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/tav#Region"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#hasTranslator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has translator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/tav#Agent"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/tav#translatorOf"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#hasWorkTranslation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has work translation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/tav#translationOfWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#hasWorkVersion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has work version"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://w3id.org/tav#versionOfWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "name"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#naturalizedToLocation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#Plant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "naturalized to location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/tav#Region"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#numberOfPages",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "number of pages"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#numberedSection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#DocumentSegmentSelector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "numbered section"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#occursIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#Selector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "occurs in"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#pageNo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#DocumentSegmentSelector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "page number"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#placeOfPublication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has place of publication"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/tav#Region"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#prefixText",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#TextSelector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "prefix text"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#publicationYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "publication year"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#publisherOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#Agent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "publisher of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#referencedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "referenced In"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#selector",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#Mention"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has selector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/tav#Selector"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#source",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#Mention"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has source"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#suffixText",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#TextSelector"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "suffix text"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#target",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#LiteraryAnnotation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has target"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#totalItems",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Collection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has total number of items"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#translationOfWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "translation of work"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#translatorOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#Agent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "translator of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#treeProductOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#WoodenObject"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is tree product of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/tav#Plant"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#versionOfWork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "version of work"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/tav#CreativeWork"
+  } ]
+}, {
+  "@id" : "https://w3id.org/tav#wordCount",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/tav#Document"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has word count"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#note" : [ {
+    "@language" : "en",
+    "@value" : "Only the main text."
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/entity/Q127849",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.wikidata.org/entity/Q16521"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tilia"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Lime genus"
+  }, {
+    "@language" : "en",
+    "@value" : "Linden genus"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/entity/Q14080",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.wikidata.org/entity/Q16521"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Arecaceae"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "palm trees"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/entity/Q146911",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.wikidata.org/entity/Q16521"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cupressus"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Cypress"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/entity/Q147513",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.wikidata.org/entity/Q16521"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cupressus sempervirens"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Mediterranean Cypress"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/entity/Q158746",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.wikidata.org/entity/Q16521"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tilia cordata"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "small-leaved lime"
+  }, {
+    "@language" : "en",
+    "@value" : "small-leaved linden"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/entity/Q163760",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.wikidata.org/entity/Q16521"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tilia × europaea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Tilia x vulgaris"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/entity/Q163981",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.wikidata.org/entity/Q16521"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tilia americana"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "American basswood"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/entity/Q16521",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A group of one or more organism(s), which a taxonomist adjudges to be a unit."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Taxon"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Taxa"
+  }, {
+    "@language" : "en",
+    "@value" : "Taxonomic Unit"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/entity/Q25292",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://www.wikidata.org/entity/Q16521"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Phoenix dactylifera"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "date palm"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/entity/Q36591",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Vladimir Nabokov"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "@language" : "en",
+    "@value" : "Vladimir Vladimirovich Nabokov"
+  } ]
+}, {
+  "@id" : "https://www.wikidata.org/entity/Q669994",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Painting series by Arnold Böcklin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Isle of the Dead"
+  } ]
+} ]
