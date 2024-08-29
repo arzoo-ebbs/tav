@@ -1,6 +1,18 @@
 # Turn off MultiViews
 Options -MultiViews
 
+#
+# https://w3id.org/tav redirects to https://https://arzoo-ebbs.github.io/tav/doc
+#
+# ## Contact
+# This space is administered by: Shakeeb Arzoo
+#
+# Shakeeb Arzoo
+# arzoo.ebbs@gmail
+# GitHub username: arzoo-ebbs
+
+RewriteEngine on
+
 # Directive to ensure *.rdf files served as appropriate content type,
 # if not present in main apache config
 AddType application/rdf+xml .rdf
