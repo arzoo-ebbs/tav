@@ -4,7 +4,7 @@ This project holds the documentation related to Tree Annotation Vocabulary (TAV)
 
 # Ontology URI 
 
-[https://w3id.org/tav](https://w3id.org/tav)
+[https://w3id.org/tav](https://w3id.org/tav) redirects to [tav/doc](https://arzoo-ebbs.github.io/tav/doc/)
 
 # Creators
 
