@@ -17,5 +17,5 @@ Stephen H. Blackwell, *University of Tennessee*
 
 # Contact
 
-Shakeeb Arzoo <br/>
-arzoo.ebbs@gmail.com
+This repository is maintained by Shakeeb Arzoo <br/> 
+Email: arzoo.ebbs@gmail.com
