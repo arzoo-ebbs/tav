@@ -20,4 +20,4 @@ Stephen H. Blackwell, *University of Tennessee*
 This repository is maintained by Shakeeb Arzoo <br/> 
 
 Email: arzoo.ebbs@gmail.com <br/>
-ORCID ID: [https:orcid.org/0009-0003-7369-1025](https://orcid.org/0009-0003-7369-1025)
+ORCID ID: [0009-0003-7369-1025](https://orcid.org/0009-0003-7369-1025)
