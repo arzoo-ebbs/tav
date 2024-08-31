@@ -8,12 +8,12 @@ This repository holds the documentation related to Tree Annotation Vocabulary (T
 
 # Creators
 
-Shakeeb Arzoo <br/>
-Aidan Hogan, *University of Chile*
+[Shakeeb Arzoo](https://github.com/arzoo-ebbs) <br/>
+[Aidan Hogan](https://aidanhogan.com/foaf.rdf)
 
 # Contributors
 
-Stephen H. Blackwell, *University of Tennessee*
+Stephen H. Blackwell
 
 # Contact
 
