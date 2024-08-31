@@ -1,10 +1,14 @@
 # Tree Annotation Vocabulary
 
+Tree Annotation Vocabulary (TAV) is an RDF vocabulary to describe the mentions of tree-like entities in literary works and link them to external databases to enrich their contextual background.
+
+# Repository Information
+
 This repository holds the documentation related to Tree Annotation Vocabulary (TAV).
 
-# Ontology URI 
+# Ontology URI
 
-[https://w3id.org/tav](https://w3id.org/tav) redirects to [tav/doc](https://arzoo-ebbs.github.io/tav/doc/)
+[https://w3id.org/tav](https://w3id.org/tav)
 
 # Creators
 
